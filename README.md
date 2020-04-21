@@ -1,3 +1,6 @@
+# Portfolio
+My porfolio website developed in React to showcase my projects and accomplishments.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
