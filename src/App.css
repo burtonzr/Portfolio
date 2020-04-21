@@ -1,3 +1,17 @@
+/* Global */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.sectionStyle {
+  background-color: white;
+  z-index: 10;
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+}
+
 /* Header */
 #scrollHeader {
   height: 100vh;
@@ -31,4 +45,35 @@
   font-family: 'cabin';
   font-size: 30px;
   padding-top: 50px;
+}
+
+/* Footer */
+footer {
+  position: fixed;
+  background-color: black;
+  bottom: 0;
+  z-index: 1;
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+}
+
+.footerButton {
+  background-color: black;
+  border: 1px solid white;
+  border-radius: 30px;
+  padding: 10px 50px;
+  width: 300px;
+}
+
+.footerButton:hover {
+  background-color: #404040;
+}
+
+footer > div > div:nth-child(n) > h2 > button > a {
+  text-decoration: none;
+  color: white;
 }
