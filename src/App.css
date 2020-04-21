@@ -1,0 +1,34 @@
+/* Header */
+#scrollHeader {
+  height: 100vh;
+  width: 100%;
+  opacity: 1;
+  top: 0;
+  left: 0;
+  background-position: bottom;
+}
+
+.title {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  font-size: 50px;
+  color: #000;
+  font-family: 'cabin';
+}
+
+.subtitle {
+  margin: 0;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  top: 60%;
+  left: 50%;
+  color: #000;
+  font-family: 'cabin';
+  font-size: 30px;
+  padding-top: 50px;
+}
