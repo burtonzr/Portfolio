@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import Benefits from './Benefits';
-import BCMS from './BCMS';
+import { Link } from 'react-router-dom';
 
 const BenefitsImage = "../benefitsHomepage.jpeg";
 const BCMSImage     = "../bcmsHomepage.png";
@@ -12,14 +11,10 @@ class Home extends Component {
                 <section className="sectionStyle" style={{marginBottom: '400px'}}>
                     <div className="row">
                         <div className="col-12 col-sm-6">
-                            <a href={Benefits} style={aTag}>
-                                <img src={BenefitsImage} />
-                            </a>
+                            <Link to='/' style={{backgroundImage: "url('../benefitsHomepage.jpeg')"}}></Link>
                         </div>
                         <div className="col-12 col-sm-6">
-                            <a href={BCMS} style={aTag}>
-                                <img src={BCMSImage} />
-                            </a>
+                            <Link to='/' style ={ { backgroundImage: "url("+BCMSImage+")" } }></Link>
                         </div>
                     </div>
                 </section>
