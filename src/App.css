@@ -4,6 +4,7 @@ body {
   padding: 0;
   max-width: 100%;
   overflow-x: hidden;
+  font-family: 'cabin';
 }
 
 .sectionStyle {
@@ -11,13 +12,38 @@ body {
   z-index: 10;
   position: relative;
   width: 100%;
-  min-height: 100vh;
+  height: 600px;
+  box-sizing: border-box;
+}
+
+.sectionStyle .row {
+  margin: 0;
+  padding: 0;
 }
 
 /* Homepage */
-.homeGrid {
-  
+#root > div > div > div:nth-child(2) > section > div > div:nth-child(1) > a {
+  text-decoration: none;
+  color: white;  
+  font-weight: 700;
+  font-size: 30px;
 }
+
+#root > div > div > div:nth-child(2) > section > div > div:nth-child(2) > a {
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.homeGrid {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 100%;
+  height: 400px;
+}
+/*background-color: #42a0de;*/
 
 /* Header */
 #scrollHeader {
@@ -38,7 +64,6 @@ body {
   -ms-transform: translate(-50%, -50%);
   font-size: 50px;
   color: #000;
-  font-family: 'cabin';
 }
 
 .subtitle {
@@ -61,7 +86,7 @@ footer {
   bottom: 0;
   z-index: 1;
   width: 100%;
-  height: 400px;
+  height: 350px;
   display: flex;
   justify-content: center;
   align-items: center;
