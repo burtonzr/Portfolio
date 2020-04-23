@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 
 const BenefitsImage = "../benefitsHomepage.jpeg";
 const BCMSImage     = "../bcmsHomepage.png";
+const BroncosMedia  = "../broncosmedia.png";
+const lsr7district  = "../lsr7district.png";
 const TechStore     = "../techstoreHome.png";
 const MOSIS         = "../MOSISHome.png";
 
@@ -9,7 +11,7 @@ class Home extends Component {
     render() {
         return (
             <div>
-                <section className="sectionStyle" style={{marginBottom: '400px'}}>
+                <section className="sectionStyle" style={{marginBottom: '850px'}}>
                     <div style={gridTitle}>
                         <h1>Wordpress</h1>
                     </div>
@@ -22,6 +24,18 @@ class Home extends Component {
                         <div className="homeGrid col-12 col-sm-6" style={{backgroundImage: "url(" + BCMSImage + ")"}}>
                             <a rel="noopener noreferrer" href='/'>
                                 Bernard Campbell Middle School
+                            </a>
+                        </div>
+                    </div>
+                    <div className="row">
+                        <div className="homeGrid col-12 col-sm-6" style={{backgroundImage: "url(" + BroncosMedia + ")"}}>
+                            <a rel="noopener noreferrer" href='/'>
+                                Broncos Media
+                            </a>
+                        </div>
+                        <div className="homeGrid col-12 col-sm-6" style={{backgroundImage: "url(" + lsr7district + ")"}}>
+                            <a rel="noopener noreferrer" href='/'>
+                                LSR7 District
                             </a>
                         </div>
                     </div>
