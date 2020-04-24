@@ -7,45 +7,16 @@ body {
   font-family: 'cabin';
 }
 
-.sectionStyle {
+/* Header */
+.sectionParallaxStyle {
   background-color: white;
   z-index: 10;
   position: relative;
   width: 100%;
-  height: 800px;
+  height: 600px;
   box-sizing: border-box;
 }
 
-.sectionStyle .row {
-  margin: 0;
-  padding: 0;
-}
-
-/* Homepage */
-#root > div > div > div:nth-child(2) > section > div > div:nth-child(1) > a {
-  text-decoration: none;
-  color: white;  
-  font-weight: 700;
-  font-size: 30px;
-}
-
-#root > div > div > div:nth-child(2) > section > div > div:nth-child(2) > a {
-  text-decoration: none;
-  color: white;
-  font-weight: 700;
-  font-size: 30px;
-}
-
-.homeGrid {
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-  width: 100%;
-  height: 400px;
-}
-/*background-color: #42a0de;*/
-
-/* Header */
 #scrollHeader {
   height: 100vh;
   width: 100%;
@@ -71,12 +42,99 @@ body {
   position: absolute;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  top: 60%;
+  top: 50%;
   left: 50%;
   color: #000;
   font-family: 'cabin';
   font-size: 30px;
-  padding-top: 50px;
+  padding-top: 150px;
+}
+
+@media only screen and (max-width: 768px) {
+  .title {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    font-size: 47px;
+    color: #000;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .subtitle {
+    margin: 0;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    color: #000;
+    font-family: 'cabin';
+    font-size: 25px;
+    padding-top: 100px;
+  }
+}
+
+/* Homepage */
+#root > div > div > div:nth-child(2) > section > div > div:nth-child(1) > a {
+  text-decoration: none;
+  color: white;  
+  font-weight: 700;
+  font-size: 30px;
+}
+
+#root > div > div > div:nth-child(2) > section > div > div:nth-child(2) > a {
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.sectionStyle .row {
+  margin: 0;
+  padding: 0;
+}
+
+hr.sep {
+  width: 15%;
+  display: block;
+  margin: 1em auto;
+  border: 1px solid #c5a47e;
+}
+
+.sectionStyle {
+  background-color: white;
+  z-index: 10;
+  position: relative;
+  width: 100%;
+  height: 1100px;
+  box-sizing: border-box;
+}
+
+.homeGrid {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 100%;
+  height: 400px;
+}
+
+.visibleText {
+  color: white;
+  background: rgba(0, 0, 0);
+  background: rgba(0, 0, 0, 0.7);
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  float: left;
+  font-size: 40px;
+  padding-left: 6px;
+  padding-right: 6px;
 }
 
 /* Footer */

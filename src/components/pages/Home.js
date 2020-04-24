@@ -13,41 +13,42 @@ class Home extends Component {
             <div>
                 <section className="sectionStyle" style={{marginBottom: '850px'}}>
                     <div style={gridTitle}>
-                        <h1>Wordpress</h1>
+                        Wordpress
+                        <hr className="sep" />
                     </div>
                     <div className="row">
                         <div className="homeGrid col-12 col-sm-6" style={{backgroundImage: "url(" + BenefitsImage + ")"}}>
-                            <a rel="noopener noreferrer" href='/'>
+                            <a rel="noopener noreferrer" className="visibleText" href='/'>
                                 Lee's Summit R-7 Benefits
                             </a>
                         </div>
                         <div className="homeGrid col-12 col-sm-6" style={{backgroundImage: "url(" + BCMSImage + ")"}}>
-                            <a rel="noopener noreferrer" href='/'>
+                            <a rel="noopener noreferrer" className="visibleText" href='/'>
                                 Bernard Campbell Middle School
                             </a>
                         </div>
                     </div>
                     <div className="row">
                         <div className="homeGrid col-12 col-sm-6" style={{backgroundImage: "url(" + BroncosMedia + ")"}}>
-                            <a rel="noopener noreferrer" href='/'>
+                            <a rel="noopener noreferrer" className="visibleText" href='/'>
                                 Broncos Media
                             </a>
                         </div>
                         <div className="homeGrid col-12 col-sm-6" style={{backgroundImage: "url(" + lsr7district + ")"}}>
-                            <a rel="noopener noreferrer" href='/'>
+                            <a rel="noopener noreferrer" className="visibleText" href='/'>
                                 LSR7 District
                             </a>
                         </div>
                     </div>
                     <div className="row">
                         <div className="homeGrid col-12 col-sm-6" style={{backgroundImage: "url(" + TechStore + ")"}}>
-                            <a rel="noopener noreferrer" href='/'>
-                                <h3>Technology Store</h3>
+                            <a rel="noopener noreferrer" className="visibleText" href='/'>
+                                Technology Store
                             </a>
                         </div>
                         <div className="homeGrid col-12 col-sm-6" style={{backgroundImage: "url(" + MOSIS + ")"}}>
-                            <a rel="noopener noreferrer" href='/'>
-                                <h3>MOSIS</h3>
+                            <a rel="noopener noreferrer" className="visibleText" href='/'>
+                                MOSIS
                             </a>
                         </div>
                     </div>
@@ -78,7 +79,13 @@ class Home extends Component {
 }
 
 const gridTitle = {
-    
+    fontSize: '50px',
+    position: 'relative',
+    float: 'none',
+    marginLeft: 'auto',
+    marginRight: 'auto',
+    textAlign: 'center',
+    padding: '2em 0'
 }
 
 export default Home;
