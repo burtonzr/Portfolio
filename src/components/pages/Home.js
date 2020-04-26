@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
 
-const BCMSImage     = "../bcmsHomepage.png";
-const BroncosMedia  = "../broncosmedia.png";
-const lsr7district  = "../lsr7district.png";
-const TechStore     = "../techstoreHome.png";
-const MOSIS         = "../MOSISHome.png";
-const MarketPlace   = "../marketplace.JPG";
-const IssueTicket   = "../issueticketingsystem.JPG";
+const Benefits      = "../images/benefitsHomepage.png";
+const BCMSImage     = "../images/bcmsHomepage.JPG";
+const Broncos       = "../images/broncosmedia.png";
+const lsr7district  = "../images/lsr7district.png";
+const TechStore     = "../images/techstoreHome.png";
+const MOSIS         = "../images/MOSISHome.png";
+const MarketPlace   = "../images/marketplace.JPG";
+const IssueTicket   = "../images/issueticketingsystem.JPG";
 
 class Home extends Component {
     render() {
@@ -18,29 +19,39 @@ class Home extends Component {
                         <hr className="sep" />
                     </div>
                     <div className="row">
-                        <div class="img-box col-12 col-sm-6">
-                            <div class="img">
-                                <a rel="noopener noreferrer" className="visibleText" href='/'>
+                        <div className="col-12 col-sm-6 view overlay">
+                            <img src={Benefits} className="img-fluid" alt="Lee's Summit R-7 Benefits"/>
+                            <div className="mask rgba-blue-light">
+                                <a rel="noopener noreferrer" href='/'>
                                     Lee's Summit R-7 Benefits
                                 </a>
                             </div>
                         </div>
-                        <div className="homeGrid col-12 col-sm-6" style={{backgroundImage: "url(" + BCMSImage + ")"}}>
-                            <a rel="noopener noreferrer" className="visibleText" href='/'>
-                                Bernard Campbell Middle School
-                            </a>
+                        <div className="col-12 col-sm-6 view overlay">
+                            <img src={BCMSImage} className="img-fluid" alt="Bernard Campbell Middle School"/>
+                            <div className="mask rgba-green-light">
+                                <a rel="noopener noreferrer" href='/'>
+                                    Bernard Campbell Middle School
+                                </a>
+                            </div>
                         </div>
                     </div>
                     <div className="row">
-                        <div className="homeGrid col-12 col-sm-6" style={{backgroundImage: "url(" + BroncosMedia + ")"}}>
-                            <a rel="noopener noreferrer" className="visibleText" href='/'>
-                                Broncos Media
-                            </a>
+                        <div className="col-12 col-sm-6 view overlay">
+                            <img src={Broncos} className="img-fluid" alt="Broncos Media"/>
+                            <div className="mask rgba-red-light">
+                                <a rel="noopener noreferrer" href='/'>
+                                    Broncos Media
+                                </a>
+                            </div>
                         </div>
-                        <div className="homeGrid col-12 col-sm-6" style={{backgroundImage: "url(" + lsr7district + ")"}}>
-                            <a rel="noopener noreferrer" className="visibleText" href='/'>
-                                LSR7 District
-                            </a>
+                        <div className="col-12 col-sm-6 view overlay">
+                            <img src={lsr7district} className="img-fluid" alt="LSR7 District"/>
+                            <div className="mask rgba-blue-light">
+                                <a rel="noopener noreferrer" href='/'>
+                                    Lee's Summit R-7 District
+                                </a>
+                            </div>
                         </div>
                     </div>
                     <div style={gridTitle}>
@@ -48,15 +59,21 @@ class Home extends Component {
                         <hr className="sep" />
                     </div>
                     <div className="row">
-                        <div className="homeGrid col-12 col-sm-6" style={{backgroundImage: "url(" + TechStore + ")"}}>
-                            <a rel="noopener noreferrer" className="visibleText" href='/'>
-                                Technology Store
-                            </a>
+                        <div className="col-12 col-sm-6 view overlay">
+                            <img src={TechStore} className="img-fluid" alt="Technology Store"/>
+                            <div className="mask rgba-yellow-light">
+                                <a rel="noopener noreferrer" href='/'>
+                                    Technology Store
+                                </a>
+                            </div>
                         </div>
-                        <div className="homeGrid col-12 col-sm-6" style={{backgroundImage: "url(" + MOSIS + ")"}}>
-                            <a rel="noopener noreferrer" className="visibleText" href='/'>
-                                MOSIS
-                            </a>
+                        <div className="col-12 col-sm-6 view overlay">
+                            <img src={MOSIS} className="img-fluid" alt="MOSIS"/>
+                            <div className="mask rgba-blue-light">
+                                <a rel="noopener noreferrer" href='/'>
+                                    MOSIS
+                                </a>
+                            </div>
                         </div>
                     </div>
                     <div style={gridTitle}>
@@ -64,15 +81,21 @@ class Home extends Component {
                         <hr className="sep" />
                     </div>
                     <div className="row">
-                        <div className="homeGrid col-12 col-sm-6" style={{backgroundImage: "url(" + MarketPlace + ")"}}>
-                            <a rel="noopener noreferrer" className="visibleText" href='/'>
-                                R&amp;B Marketplace
-                            </a>
+                        <div className="col-12 col-sm-6 view overlay">
+                            <img src={MarketPlace} className="img-fluid" alt="MOSIS"/>
+                            <div className="mask rgba-blue-light">
+                                <a rel="noopener noreferrer" href='/'>
+                                    R&amp;B Marketplace
+                                </a>
+                            </div>
                         </div>
-                        <div className="homeGrid col-12 col-sm-6" style={{backgroundImage: "url(" + IssueTicket + ")"}}>
-                            <a rel="noopener noreferrer" className="visibleText" href='/'>
-                                Issue Ticketing System
-                            </a>
+                        <div className="col-12 col-sm-6 view overlay">
+                            <img src={IssueTicket} className="img-fluid" alt="MOSIS"/>
+                            <div className="mask rgba-brown-light">
+                                <a rel="noopener noreferrer" href='/'>
+                                    Issue Ticketing System
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </section>

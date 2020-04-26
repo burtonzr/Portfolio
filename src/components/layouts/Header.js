@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import { Parallax } from 'react-parallax';
 
-const headerImage = "../my-photo.jfif";
-const mobileImage = "../mobileSeattleHeader.jfif";
+const headerImage = "../images/my-photo.jfif";
+const mobileImage = "../images/mobileSeattleHeader.jfif";
 
 const styling = {
     opacity: '.8'
