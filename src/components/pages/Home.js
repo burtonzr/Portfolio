@@ -14,7 +14,7 @@ class Home extends Component {
         return (
             <div>
                 <section className="sectionStyle" style={{marginBottom: '850px'}}>
-                    <div style={gridTitle}>
+                    <div className="gridTitle">
                         Wordpress
                         <hr className="sep" />
                     </div>
@@ -54,7 +54,7 @@ class Home extends Component {
                             </div>
                         </div>
                     </div>
-                    <div style={gridTitle}>
+                    <div className="gridTitle">
                         ColdFusion Applications
                         <hr className="sep" />
                     </div>
@@ -62,7 +62,7 @@ class Home extends Component {
                         <div className="col-12 col-sm-6 view overlay">
                             <img src={TechStore} className="img-fluid" alt="Technology Store"/>
                             <div className="mask rgba-yellow-light">
-                                <a rel="noopener noreferrer" href='/'>
+                                <a rel="noopener noreferrer" href='/Techstore'>
                                     Technology Store
                                 </a>
                             </div>
@@ -70,13 +70,13 @@ class Home extends Component {
                         <div className="col-12 col-sm-6 view overlay">
                             <img src={MOSIS} className="img-fluid" alt="MOSIS"/>
                             <div className="mask rgba-blue-light">
-                                <a rel="noopener noreferrer" href='/'>
+                                <a rel="noopener noreferrer" href='/Mosis'>
                                     MOSIS
                                 </a>
                             </div>
                         </div>
                     </div>
-                    <div style={gridTitle}>
+                    <div className="gridTitle">
                         UCM Projects
                         <hr className="sep" />
                     </div>
@@ -122,17 +122,6 @@ class Home extends Component {
             </div>
         )
     }
-}
-
-const gridTitle = {
-    fontSize: '50px',
-    position: 'relative',
-    float: 'none',
-    marginLeft: 'auto',
-    marginRight: 'auto',
-    textAlign: 'center',
-    padding: '2em 0',
-    backgroundColor: 'white'
 }
 
 export default Home;

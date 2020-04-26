@@ -13,7 +13,7 @@ class Header extends Component {
         return (
             <div>
                 <section className="sectionParallaxStyle">
-                    <Parallax bgImage={headerImage} style={styling} strength={450}>
+                    <Parallax bgImage={headerImage} style={styling} strength={300}>
                         <div id="scrollHeader">
                             <h1 className="title">Zach Burton</h1>
                             <h4 className="subtitle">Web Developer</h4>
