@@ -6,6 +6,8 @@ const Broncos       = "../images/broncosmedia.png";
 const lsr7district  = "../images/lsr7district.png";
 const TechStore     = "../images/techstoreHome.png";
 const MOSIS         = "../images/MOSISHome.png";
+const RHR           = "../images/RHR.png";
+const eDataReports  = "../images/eDataReports.png";
 const MarketPlace   = "../images/marketplace.JPG";
 const IssueTicket   = "../images/issueticketingsystem.JPG";
 
@@ -21,7 +23,7 @@ class Home extends Component {
                     <div className="row">
                         <div className="col-12 col-sm-6 view overlay">
                             <img src={Benefits} className="img-fluid" alt="Lee's Summit R-7 Benefits"/>
-                            <div className="mask rgba-blue-light">
+                            <div className="mask rgba-orange-light">
                                 <a rel="noopener noreferrer" href='/'>
                                     Lee's Summit R-7 Benefits
                                 </a>
@@ -72,6 +74,24 @@ class Home extends Component {
                             <div className="mask rgba-blue-light">
                                 <a rel="noopener noreferrer" href='/Mosis'>
                                     MOSIS
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="row">
+                        <div className="col-12 col-sm-6 view overlay">
+                            <img src={RHR} className="img-fluid" alt="Remedial Hours Reporting"/>
+                            <div className="mask rgba-green-light">
+                                <a rel="noopener noreferrer" href='/Techstore'>
+                                    Remedial Hours Reporting
+                                </a>
+                            </div>
+                        </div>
+                        <div className="col-12 col-sm-6 view overlay">
+                            <img src={eDataReports} className="img-fluid" alt="eDataReports"/>
+                            <div className="mask rgba-red-light">
+                                <a rel="noopener noreferrer" href='/Mosis'>
+                                    eDataReports
                                 </a>
                             </div>
                         </div>
