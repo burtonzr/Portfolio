@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Media from 'react-media';
 
 const Benefits      = "../images/benefitsHomepage.png";
 const BCMSImage     = "../images/bcmsHomepage.JPG";
@@ -18,6 +19,7 @@ class Home extends Component {
                 <section className="sectionStyle" style={{marginBottom: '850px'}}>
                     <div className="gridTitle">
                         Wordpress
+
                         <hr className="sep" />
                     </div>
                     <div className="row">
