@@ -11,7 +11,7 @@ class Mosis extends Component {
     render() {
         return (
             <div>
-                <Parallax bgImage={MosisHeader} strength={200}>
+                <Parallax bgImage={MosisHeader} strength={250}>
                     <div style={layer}>
                         <div id="scrollHeader">
                             <h1 id="titleTechstore">ColdFusion Application</h1>
