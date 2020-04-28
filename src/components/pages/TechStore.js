@@ -14,8 +14,8 @@ class TechStore extends Component {
                 <Parallax bgImage={TechStoreImage} strength={200}>
                     <div style={layer}>
                         <div id="scrollHeader">
-                            <h1 id="titleTechstore">ColdFusion Application</h1>
-                            <h4 id="subtitleTechstore">District Technology Store</h4>
+                            <h1 className="titleProject">ColdFusion Application</h1>
+                            <h4 className="subtitleProject">District Technology Store</h4>
                         </div>
                     </div>
                 </Parallax>

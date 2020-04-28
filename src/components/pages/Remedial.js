@@ -3,18 +3,22 @@ import { Parallax } from 'react-parallax';
 
 const RHR = "../images/RHR.png";
 
+const layer = {
+    boxShadow: 'inset 0 0 0 1000px rgba(0, 0, 0, 0.7)'
+}
+
 class Remedial extends React.Component {
     render() {
         return (
             <div>
-                <section className="sectionParallaxStyle">
-                    <Parallax bgImage={RHR} strength={250}>
+                <Parallax bgImage={RHR} strength={250}>
+                    <div style={layer}> 
                         <div id="scrollHeader">
-                            <h1 className="title">ColdFusion Application</h1>
-                            <h4 className="subtitle">Remedial Hours Reporting</h4>
+                            <h1 className="titleWhite">ColdFusion Application</h1>
+                            <h4 className="subtitleWhite">Remedial Hours Reporting</h4>
                         </div>
-                    </Parallax>
-                </section>
+                    </div>
+                </Parallax>
                 <div className="gridTitle">
                     Remedial Hours Reporting<br />
                     <hr className="sep" />
