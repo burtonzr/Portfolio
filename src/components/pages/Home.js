@@ -25,7 +25,7 @@ class Home extends Component {
                         <div className="col-12 col-sm-6 view overlay">
                             <img src={Benefits} className="img-fluid" alt="Lee's Summit R-7 Benefits"/>
                             <div className="mask rgba-orange-light">
-                                <a rel="noopener noreferrer"  href='/'>
+                                <a className="hoverText" rel="noopener noreferrer"  href='/'>
                                     Lee's Summit R-7 Benefits
                                 </a>
                             </div>
@@ -33,7 +33,7 @@ class Home extends Component {
                         <div className="col-12 col-sm-6 view overlay">
                             <img src={BCMSImage} className="img-fluid" alt="Bernard Campbell Middle School"/>
                             <div className="mask rgba-green-light">
-                                <a rel="noopener noreferrer" target="_blank" href='https://bcms.lsr7.org/'>
+                                <a className="hoverText" rel="noopener noreferrer" target="_blank" href='https://bcms.lsr7.org/'>
                                     Bernard Campbell Middle School
                                 </a>
                             </div>
@@ -43,7 +43,7 @@ class Home extends Component {
                         <div className="col-12 col-sm-6 view overlay">
                             <img src={Broncos} className="img-fluid" alt="Broncos Media"/>
                             <div className="mask rgba-red-light">
-                                <a rel="noopener noreferrer" target="_blank" href='https://broncomedia.org/'>
+                                <a className="hoverText" rel="noopener noreferrer" target="_blank" href='https://broncomedia.org/'>
                                     Broncos Media
                                 </a>
                             </div>
@@ -51,7 +51,7 @@ class Home extends Component {
                         <div className="col-12 col-sm-6 view overlay">
                             <img src={lsr7district} className="img-fluid" alt="LSR7 District"/>
                             <div className="mask rgba-blue-light">
-                                <a rel="noopener noreferrer" target="_blank" href='https://lsr7.org/'>
+                                <a className="hoverText" rel="noopener noreferrer" target="_blank" href='https://lsr7.org/'>
                                     Lee's Summit R-7 District
                                 </a>
                             </div>
@@ -60,12 +60,16 @@ class Home extends Component {
                     <div className="gridTitle">
                         ColdFusion Applications
                         <hr className="sep" />
+                        <p>
+                            All of the ColdFusion applications I have developed follow the model-view-controller (MVC) architectural pattern. 
+                            These applications are internal and can only be viewed by school district staff because of the sensitive student, parent, and staff information they contain. 
+                        </p>
                     </div>
                     <div className="row">
                         <div className="col-12 col-sm-6 view overlay">
                             <img src={TechStore} className="img-fluid" alt="Technology Store"/>
                             <div className="mask rgba-yellow-light">
-                                <a rel="noopener noreferrer" href='/Techstore'>
+                                <a className="hoverText" rel="noopener noreferrer" href='/Techstore'>
                                     Technology Store
                                 </a>
                             </div>
@@ -73,7 +77,7 @@ class Home extends Component {
                         <div className="col-12 col-sm-6 view overlay">
                             <img src={MOSIS} className="img-fluid" alt="MOSIS"/>
                             <div className="mask rgba-blue-light">
-                                <a rel="noopener noreferrer" href='/Mosis'>
+                                <a className="hoverText" rel="noopener noreferrer" href='/Mosis'>
                                     MOSIS
                                 </a>
                             </div>
@@ -83,7 +87,7 @@ class Home extends Component {
                         <div className="col-12 col-sm-6 view overlay">
                             <img src={RHR} className="img-fluid" alt="Remedial Hours Reporting"/>
                             <div className="mask rgba-green-light">
-                                <a rel="noopener noreferrer" href='/Techstore'>
+                                <a className="hoverText" rel="noopener noreferrer" href='/Remedial'>
                                     Remedial Hours Reporting
                                 </a>
                             </div>
@@ -91,7 +95,7 @@ class Home extends Component {
                         <div className="col-12 col-sm-6 view overlay">
                             <img src={eDataReports} className="img-fluid" alt="eDataReports"/>
                             <div className="mask rgba-red-light">
-                                <a rel="noopener noreferrer" href='/Mosis'>
+                                <a className="hoverText" rel="noopener noreferrer" href='/Reports'>
                                     eDataReports
                                 </a>
                             </div>
@@ -105,7 +109,7 @@ class Home extends Component {
                         <div className="col-12 col-sm-6 view overlay">
                             <img src={MarketPlace} className="img-fluid" alt="MOSIS"/>
                             <div className="mask rgba-blue-light">
-                                <a rel="noopener noreferrer" href='/'>
+                                <a className="hoverText" rel="noopener noreferrer" target="_blank" href='http://rbmarketplace.herokuapp.com/'>
                                     R&amp;B Marketplace
                                 </a>
                             </div>
@@ -113,7 +117,7 @@ class Home extends Component {
                         <div className="col-12 col-sm-6 view overlay">
                             <img src={IssueTicket} className="img-fluid" alt="MOSIS"/>
                             <div className="mask rgba-brown-light">
-                                <a rel="noopener noreferrer" href='/'>
+                                <a className="hoverText" rel="noopener noreferrer" target="_blank" href='http://issueticketingsystem.com/'>
                                     Issue Ticketing System
                                 </a>
                             </div>

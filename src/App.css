@@ -116,7 +116,7 @@ body {
 }
 
 /* Homepage */
-div:nth-child(3) > section > div:nth-child(n) > div:nth-child(n) > div > a {
+.hoverText {
   color: white;
   background: rgba(0, 0, 0);
   background: rgba(0, 0, 0, 0.7);
@@ -131,8 +131,13 @@ div:nth-child(3) > section > div:nth-child(n) > div:nth-child(n) > div > a {
   padding-right: 6px;
 }
 
+.hoverText:hover {
+  color: white;
+  text-decoration: none;
+}
+
 @media only screen and (max-width: 850px) {
-  div:nth-child(3) > section > div:nth-child(n) > div:nth-child(n) > div > a {
+  .hoverText {
     color: white;
     background: rgba(0, 0, 0);
     background: rgba(0, 0, 0, 0.7);
@@ -191,8 +196,28 @@ hr.sep {
   z-index: 10;
   position: relative;
   width: 100%;
-  height: 2780px;
+  height: 2880px;
   box-sizing: border-box;
+}
+
+/* MOSIS */
+.gridTitle p {
+  padding: 0 10%;
+  font-size: 20px;
+  color: #5a5b5e;
+}
+
+.subtitleSpan {
+  margin: 0;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  color: #000;
+  font-family: 'cabin';
+  font-size: 20px;
+  padding-top: 300px;
 }
 
 /* Footer */
