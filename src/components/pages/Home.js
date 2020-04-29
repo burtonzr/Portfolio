@@ -107,7 +107,7 @@ class Home extends Component {
                     </div>
                     <div className="row">
                         <div className="col-12 col-sm-6 view overlay">
-                            <img src={MarketPlace} className="img-fluid" alt="MOSIS"/>
+                            <img src={MarketPlace} className="img-fluid" alt="R&amp;B Marketplace"/>
                             <div className="mask rgba-blue-light">
                                 <a className="hoverText" rel="noopener noreferrer" target="_blank" href='http://rbmarketplace.herokuapp.com/'>
                                     R&amp;B Marketplace
@@ -115,7 +115,7 @@ class Home extends Component {
                             </div>
                         </div>
                         <div className="col-12 col-sm-6 view overlay">
-                            <img src={IssueTicket} className="img-fluid" alt="MOSIS"/>
+                            <img src={IssueTicket} className="img-fluid" alt="Issue Ticketing System"/>
                             <div className="mask rgba-brown-light">
                                 <a className="hoverText" rel="noopener noreferrer" target="_blank" href='http://issueticketingsystem.com/'>
                                     Issue Ticketing System
