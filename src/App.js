@@ -8,6 +8,8 @@ import Reports         from './components/pages/Reports';
 import Header          from './components/layouts/Header';
 import HeaderTechStore from './components/layouts/HeaderTechStore';
 import HeaderMosis     from './components/layouts/HeaderMosis';
+import HeaderRemedial  from './components/layouts/HeaderRemedial';
+import HeaderReports   from './components/layouts/HeaderReports';
 import Navbar          from './components/layouts/Navbar';
 import './App.css';
 
@@ -38,11 +40,15 @@ function App() {
         )} />
         <Route exact path="/Remedial" render={props => (
           <div>
+            <HeaderRemedial />
+            <Navbar />
             <Remedial />
           </div>
         )} />
         <Route exact path="/Reports" render={props => (
           <div>
+            <HeaderReports />
+            <Navbar />
             <Reports />
           </div>
         )} />

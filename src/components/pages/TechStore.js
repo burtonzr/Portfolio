@@ -1,7 +1,13 @@
 import React, { Component } from 'react';
-import { Parallax } from 'react-parallax';
+
+var loadjs = require('loadjs');
 
 class TechStore extends Component {
+
+    componentDidMount() {
+        loadjs('main.js');
+    }
+
     render() {
         return (
             <div>

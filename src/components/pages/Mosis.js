@@ -1,13 +1,12 @@
 import React, { Component } from 'react';
-import { Parallax } from 'react-parallax';
 
-const MosisHeader = "../images/MOSISHome.png";
-
-const layer = {
-    boxShadow: 'inset 0 0 0 1000px rgba(0, 0, 0, 0.7'
-}
+var loadjs = require('loadjs');
 
 class Mosis extends Component {
+    componentDidMount() {
+        loadjs('main.js');
+    }
+
     render() {
         return (
             <div>

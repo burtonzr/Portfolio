@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 class Navbar extends React.Component {
     render() {
@@ -9,11 +9,11 @@ class Navbar extends React.Component {
                     <div className="container d-flex">
                         <nav className="nav-menu d-none d-lg-block">
                             <ul>
-                                <li><Link to="/">Home</Link></li>
-                                <li><Link to="/TechStore">Technology Store</Link></li>
-                                <li><Link to="/Mosis">MOSIS</Link></li>
-                                <li><Link to="/Remedial">Remedial Hours Reporting</Link></li>
-                                <li><Link to="/Reports">eDataReports</Link></li>
+                                <li><NavLink exact={true} activeStyle={activeLink} activeClassName="is-active" to="/">Home</NavLink></li>
+                                <li><NavLink activeStyle={activeLink} activeClassName="is-active" to="/TechStore">Technology Store</NavLink></li>
+                                <li><NavLink activeStyle={activeLink} activeClassName="is-active" to="/Mosis">MOSIS</NavLink></li>
+                                <li><NavLink activeStyle={activeLink} activeClassName="is-active" to="/Remedial">Remedial Hours Reporting</NavLink></li>
+                                <li><NavLink activeStyle={activeLink} activeClassName="is-active" to="/Reports">eDataReports</NavLink></li>
                                 {/*
                                 <li className="drop-down"><a href="/">ColdFusion</a>
                                     <ul>
@@ -37,6 +37,11 @@ class Navbar extends React.Component {
             </div>
         );
     }
+}
+
+const activeLink = {
+    color: '#000000',
+    fontWeight: '800'
 }
 
 export default Navbar;
