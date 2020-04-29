@@ -10,10 +10,26 @@ class Navbar extends React.Component {
                         <nav className="nav-menu d-none d-lg-block">
                             <ul>
                                 <li><Link to="/">Home</Link></li>
-                                <li><Link to="/">Technology Store</Link></li>
-                                <li><Link to="/">MOSIS</Link></li>
-                                <li><Link to="/">Remedial Hours Reporting</Link></li>
-                                <li><Link to="/">eDataReports</Link></li>
+                                <li><Link to="/TechStore">Technology Store</Link></li>
+                                <li><Link to="/Mosis">MOSIS</Link></li>
+                                <li><Link to="/Remedial">Remedial Hours Reporting</Link></li>
+                                <li><Link to="/Reports">eDataReports</Link></li>
+                                {/*
+                                <li className="drop-down"><a href="/">ColdFusion</a>
+                                    <ul>
+                                        <li><Link to="/TechStore">Technology Store</Link></li>
+                                        <li><Link to="/Mosis">MOSIS</Link></li>
+                                        <li><Link to="/Remedial">Remedial Hours Reporting</Link></li>
+                                        <li><Link to="/Reports">eDataReports</Link></li>
+                                    </ul>
+                                </li>
+                                <li className="drop-down"><a href="/">UCM Projects</a>
+                                    <ul>
+                                        <li><Link to="/">R&amp;B Marketplace</Link></li>
+                                        <li><Link to="/">Issue Ticketing System</Link></li>
+                                    </ul>
+                                </li>
+                                */}
                             </ul>
                         </nav>
                     </div>

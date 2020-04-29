@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Media from 'react-media';
 
 const Benefits      = "../images/benefitsHomepage.png";
 const BCMSImage     = "../images/bcmsHomepage.JPG";
@@ -12,7 +11,17 @@ const eDataReports  = "../images/eDataReports.png";
 const MarketPlace   = "../images/marketplace.JPG";
 const IssueTicket   = "../images/issueticketingsystem.JPG";
 
+var loadjs = require('loadjs');
+
 class Home extends Component {
+    constructor(props) {
+        super(props);
+    }
+    
+    componentDidMount() {
+        loadjs('main.js');
+    }
+
     render() {
         return (
             <div>

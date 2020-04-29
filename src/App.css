@@ -115,6 +115,70 @@ body {
   box-sizing: border-box;
 }
 
+#header {
+  height: 70px;
+  transition: all 0.5s;
+  z-index: 997;
+  padding: 10px 0;
+  background: #fff;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+.nav-menu, .nav-menu * {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-menu > ul > li {
+  position: relative;
+  white-space: nowrap;
+  float: left;
+}
+
+.nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover a {
+  color: #ccd7d6;
+  text-decoration: none;
+}
+
+.nav-menu a {
+  text-decoration: none;
+  display: block;
+  position: relative;
+  color: #425451;
+  font-size: 15px;
+  padding: 14px 15px;
+  transition: 0.3s;
+  font-weight: 500;
+  letter-spacing: 0.3px;
+  font-family: "Roboto", sans-serif;
+}
+
+.nav-menu .drop-down ul {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: calc(100% + 30px);
+  z-index: 99;
+  opacity: 0;
+  visibility: hidden;
+  padding: 10px 0;
+  background: #fff;
+  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+  transition: ease all 0.3s;
+}
+
+.nav-menu .drop-down:hover > ul {
+  opacity: 1;
+  visibility: visible;
+  top: 100%;
+}
+
+.nav-menu .drop-down li {
+  min-width: 180px;
+  position: relative;
+}
+
 /* Homepage */
 .hoverText {
   color: white;
@@ -215,6 +279,20 @@ hr.sep {
   top: 50%;
   left: 50%;
   color: #000;
+  font-family: 'cabin';
+  font-size: 20px;
+  padding-top: 300px;
+}
+
+.subtitleSpanProject {
+  margin: 0;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  text-shadow: black 0px 0px 10px;
+  color: blue;
   font-family: 'cabin';
   font-size: 20px;
   padding-top: 300px;

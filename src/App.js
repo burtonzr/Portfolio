@@ -1,12 +1,14 @@
 import React from 'react';
 import { BrowserRouter as Router, Route} from 'react-router-dom';
-import Home      from  './components/pages/Home';
-import TechStore from './components/pages/TechStore';
-import Mosis     from './components/pages/Mosis';
-import Remedial  from './components/pages/Remedial';
-import Reports   from './components/pages/Reports';
-import Header    from './components/layouts/Header';
-import Navbar    from './components/layouts/Navbar';
+import Home            from  './components/pages/Home';
+import TechStore       from './components/pages/TechStore';
+import Mosis           from './components/pages/Mosis';
+import Remedial        from './components/pages/Remedial';
+import Reports         from './components/pages/Reports';
+import Header          from './components/layouts/Header';
+import HeaderTechStore from './components/layouts/HeaderTechStore';
+import HeaderMosis     from './components/layouts/HeaderMosis';
+import Navbar          from './components/layouts/Navbar';
 import './App.css';
 
 function App() {
@@ -22,11 +24,15 @@ function App() {
         )} />
         <Route exact path="/TechStore" render={props => (
           <div>
+            <HeaderTechStore />
+            <Navbar />
             <TechStore />
           </div>
         )} />
         <Route exact path="/Mosis" render={props => (
           <div>
+            <HeaderMosis />
+            <Navbar />
             <Mosis />
           </div>
         )} />
