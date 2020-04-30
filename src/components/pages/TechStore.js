@@ -75,25 +75,26 @@ class TechStore extends Component {
                         <div class="shadow-none rounded col-12 col-sm-6 col-md-4 pt-3 mt-3">
                             <h5 style={centerFeatureTitle}>Add to Cart</h5>
                             <p className="pt-2">
-                                This feature allows the Technology Purchaser to click the edit product
-                                button of the product that they want to edit and then they can update the 
-                                name, description, model number, status, image, etc.. 
+                                A user can simple add a product to their cart and then they can view
+                                there cart at checkout. Ever time you add a product to your cart, you get a confirmation
+                                from the shopping cart to notify you that the product was added. 
                             </p>
                         </div>
                         <div class="shadow-none rounded col-12 col-sm-6 col-md-4 pt-3 mt-3">
                             <h5 style={centerFeatureTitle}>Create Multiple Carts</h5>
                             <p className="pt-2">
-                                This feature allows the Technology Purchaser to click the edit product
-                                button of the product that they want to edit and then they can update the 
-                                name, description, model number, status, image, etc.. 
+                                You have the ability to create mutiple carts. The only time you 
+                                need to create more than one cart is if some of the products in your 
+                                cart are going to a different location. When completing checkout, you have to 
+                                specfiy the building and room number that the order will be delivered to. 
                             </p>
                         </div>
                         <div class="shadow-none rounded col-12 col-sm-6 col-md-4 pt-3 mt-3">
                             <h5 style={centerFeatureTitle}>Add Custom Product to Cart</h5>
                             <p className="pt-2">
-                                This feature allows the Technology Purchaser to click the edit product
-                                button of the product that they want to edit and then they can update the 
-                                name, description, model number, status, image, etc.. 
+                                If you need to purchase a product that does not exist in the store, you can create custom product. 
+                                All you have to do is specify the title of the product, the price, quantity, and a url of where the product 
+                                is on the Internet. Then, you can add it to your cart. 
                             </p>
                         </div>
                     </div>
