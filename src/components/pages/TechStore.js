@@ -3,6 +3,8 @@ import React, { Component } from 'react';
 var loadjs = require('loadjs');
 
 const editproduct = "../images/editproduct.png";
+const viewall     = "../images/viewallorders.png";
+const addproduct  = "../images/addproduct.png";
 
 class TechStore extends Component {
 
@@ -27,31 +29,36 @@ class TechStore extends Component {
                     <hr className="sep" />
                     <p>
                         The staff members that get admistrative access are the Technology Purchaser, 
-                        Data Systems staff, and building adminstrators. 
+                        Data Systems staff, and building administrators. 
                     </p>
                 </div>
                 <div className="features" style={color1}>
                     <div class="row">
-                        <div class="shadow-none rounded col-12 col-sm-6 col-md-4 pt-3">
+                        <div class="shadow-none rounded col-12 col-sm-6 col-md-4 pt-3 mt-3">
                             <h5 style={centerFeatureTitle}>Edit Product</h5>
                             <p className="pt-2">
                                 This feature allows the Technology Purchaser to click the edit product
                                 button of the product that they want to edit and then they can update the 
                                 name, description, model number, status, image, etc.. 
                             </p>
-                            <img src={editproduct} className="img-fluid" />
+                            <img src={editproduct} width="90%" className="img-fluid" />
                         </div>
-                        <div class="shadow-none rounded col-12 col-sm-6 col-md-4 pt-3">
+                        <div class="shadow-none rounded col-12 col-sm-6 col-md-4 pt-3 mt-3">
                             <h5 style={centerFeatureTitle}>Add Product</h5>
                             <p className="pt-2">
-
+                                Whenever a popular product is bought by staff, the Technology Purchaser will
+                                add that product to the store so that users don't have to create custom products. 
                             </p>
+                            <img src={addproduct} className="img-fluid" />
                         </div>
-                        <div class="shadow-none rounded col-12 col-sm-6 col-md-4 pt-3">
+                        <div class="shadow-none rounded col-12 col-sm-6 col-md-4 pt-3 mt-3">
                             <h5 style={centerFeatureTitle}>View All Orders</h5>
                             <p className="pt-2">
-
+                                The Technology Purchaser uses this table to see the status of orders, the total price of a 
+                                order, and building information. The Technology Purchaser can cancell a order by changing the status
+                                to cancelled. 
                             </p>
+                            <img src={viewall} className="img-fluid" />
                         </div>
                     </div>
                 </div>
@@ -65,7 +72,7 @@ class TechStore extends Component {
                 </div>
                 <div className="features" style={color1}>
                     <div class="row">
-                        <div class="shadow-none rounded col-12 col-sm-6 col-md-4">
+                        <div class="shadow-none rounded col-12 col-sm-6 col-md-4 pt-3 mt-3">
                             <h5 style={centerFeatureTitle}>Add to Cart</h5>
                             <p className="pt-2">
                                 This feature allows the Technology Purchaser to click the edit product
@@ -73,7 +80,7 @@ class TechStore extends Component {
                                 name, description, model number, status, image, etc.. 
                             </p>
                         </div>
-                        <div class="shadow-none rounded col-12 col-sm-6 col-md-4">
+                        <div class="shadow-none rounded col-12 col-sm-6 col-md-4 pt-3 mt-3">
                             <h5 style={centerFeatureTitle}>Create Multiple Carts</h5>
                             <p className="pt-2">
                                 This feature allows the Technology Purchaser to click the edit product
@@ -81,7 +88,7 @@ class TechStore extends Component {
                                 name, description, model number, status, image, etc.. 
                             </p>
                         </div>
-                        <div class="shadow-none rounded col-12 col-sm-6 col-md-4">
+                        <div class="shadow-none rounded col-12 col-sm-6 col-md-4 pt-3 mt-3">
                             <h5 style={centerFeatureTitle}>Add Custom Product to Cart</h5>
                             <p className="pt-2">
                                 This feature allows the Technology Purchaser to click the edit product
