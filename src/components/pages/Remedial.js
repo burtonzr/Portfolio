@@ -57,7 +57,7 @@ class Remedial extends React.Component {
                     </div>
                 </div>
                 <div className="gridTitle" style={color1}>
-                    Average User Features
+                    User Features
                     <hr className="sep" />
                     <p>
                         Regular users include most staff members that might need technology parts or equipment, 
