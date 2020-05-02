@@ -22,7 +22,7 @@ class Reports extends React.Component {
                     </p>
                 </div>
                 <div className="gridTitle" style={color1}>
-                    Adminstrator Features
+                    Administrator Features
                     <hr className="sep" />
                     <p>
                         The staff members that get admistrative access are the Technology Purchaser, 

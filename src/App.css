@@ -57,6 +57,39 @@ body {
   text-shadow: black 0px 0px 10px;
   color: blue;
   opacity: 1;
+  white-space: nowrap;
+}
+
+@media only screen and (max-width: 900px) {
+  .titleProject {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    font-size: 40px;
+    text-shadow: black 0px 0px 10px;
+    color: blue;
+    opacity: 1;
+    white-space: nowrap;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .titleProject {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    font-size: 25px;
+    text-shadow: black 0px 0px 10px;
+    color: blue;
+    opacity: 1;
+    white-space: nowrap;
+  }
 }
 
 .title {
@@ -68,6 +101,7 @@ body {
   -ms-transform: translate(-50%, -50%);
   font-size: 50px;
   color: #000;
+  white-space: nowrap;
 }
 
 .subtitleProject {
@@ -82,6 +116,24 @@ body {
   font-family: 'cabin';
   font-size: 30px;
   padding-top: 150px;
+  white-space: nowrap;
+}
+
+@media only screen and (max-width: 768px) {
+  .subtitleProject {
+    margin: 0;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    text-shadow: black 0px 0px 10px;
+    color: blue;
+    font-family: 'cabin';
+    font-size: 20px;
+    padding-top: 150px;
+    white-space: nowrap;
+  }
 }
 
 .subtitle {
@@ -95,6 +147,21 @@ body {
   font-family: 'cabin';
   font-size: 30px;
   padding-top: 150px;
+  white-space: nowrap;
+}
+
+@media only screen and (max-width: 900px) {
+  .title {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    font-size: 40px;
+    color: #000;
+    white-space: nowrap;
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -105,8 +172,9 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-    font-size: 47px;
+    font-size: 25px;
     color: #000;
+    white-space: nowrap;
   }
 }
 
@@ -120,8 +188,9 @@ body {
     left: 50%;
     color: #000;
     font-family: 'cabin';
-    font-size: 25px;
-    padding-top: 100px;
+    font-size: 20px;
+    padding-top: 150px;
+    white-space: nowrap;
   }
 }
 
@@ -302,6 +371,7 @@ hr.sep {
   font-family: 'cabin';
   font-size: 20px;
   padding-top: 300px;
+  white-space: nowrap;
 }
 
 .subtitleSpanProject {
@@ -316,6 +386,24 @@ hr.sep {
   font-family: 'cabin';
   font-size: 20px;
   padding-top: 300px;
+  white-space: nowrap;
+}
+
+@media only screen and (max-width: 768px) {
+  .subtitleSpanProject {
+    margin: 0;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    text-shadow: black 0px 0px 10px;
+    color: blue;
+    font-family: 'cabin';
+    font-size: 17px;
+    padding-top: 300px;
+    white-space: nowrap;
+  }
 }
 
 .titleWhite {
@@ -327,6 +415,35 @@ hr.sep {
   -ms-transform: translate(-50%, -50%);
   font-size: 50px;
   color: white;
+  white-space: nowrap;
+}
+
+@media only screen and (max-width: 900px) {
+  .titleWhite {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    font-size: 40px;
+    color: white;
+    white-space: nowrap;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .titleWhite {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    font-size: 25px;
+    color: white;
+    white-space: nowrap;
+  }
 }
 
 .subtitleWhite {
@@ -340,6 +457,23 @@ hr.sep {
   font-family: 'cabin';
   font-size: 30px;
   padding-top: 150px;
+  white-space: nowrap;
+}
+
+@media only screen and (max-width: 768px) {
+  .subtitleWhite {
+    margin: 0;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    color: white;
+    font-family: 'cabin';
+    font-size: 20px;
+    padding-top: 150px;
+    white-space: nowrap;
+  }
 }
 
 .subsubtitleWhite {
@@ -353,6 +487,23 @@ hr.sep {
   font-family: 'cabin';
   font-size: 20px;
   padding-top: 300px;
+  white-space: nowrap;
+}
+
+@media only screen and (max-width: 768px) {
+  .subsubtitleWhite {
+    margin: 0;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    color: white;
+    font-family: 'cabin';
+    font-size: 17px;
+    padding-top: 300px;
+    white-space: nowrap;
+  }
 }
 
 /* Footer */
