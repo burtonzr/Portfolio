@@ -5,6 +5,7 @@ var loadjs = require('loadjs');
 const editproduct = "../images/editproduct.png";
 const viewall     = "../images/viewallorders.png";
 const addproduct  = "../images/addproduct.png";
+const mountain    = "../images/mountainbackground.jpg";
 
 class Remedial extends React.Component {
     componentDidMount() {
@@ -23,15 +24,16 @@ class Remedial extends React.Component {
                         Google authentication was implemented to improve security. 
                     </p>
                 </div>
-                <div className="gridTitle" style={color1}>
-                    Adminstrator Features
-                    <hr className="sep" />
-                    <p>
-                        The staff members that get admistrative access are the Technology Purchaser, 
-                        Data Systems staff, and building administrators. 
-                    </p>
+                <div className="mountainBackground">
+                    <div className="mountainText">
+                        <h1>Administrator Features</h1>
+                        <p>
+                            The staff members that get administrative access are the Technology Purchaser, 
+                            Data Systems staff, and building administrators. 
+                        </p>
+                    </div>
                 </div>
-                <div className="features" style={color1}>
+                <div className="features">
                     <div class="row">
                         <div class="shadow-none rounded col-12 col-sm-6 col-md-4 pt-3 mt-3">
                             <h5 style={centerFeatureTitle}>Edit Product</h5>
@@ -56,15 +58,16 @@ class Remedial extends React.Component {
                         </div>
                     </div>
                 </div>
-                <div className="gridTitle" style={color1}>
-                    User Features
-                    <hr className="sep" />
-                    <p>
-                        Regular users include most staff members that might need technology parts or equipment, 
-                        like a new laptop or power adapter. 
-                    </p>
+                <div className="mountainBackground">
+                    <div className="mountainText">
+                        <h1>User Features</h1>
+                        <p>
+                            Regular users include most staff members that might need technology parts or equipment, 
+                            like a new laptop or power adapter. 
+                        </p>
+                    </div>
                 </div>
-                <div className="features" style={color1}>
+                <div className="features">
                     <div class="row">
                         <div class="shadow-none rounded col-12 col-sm-6 col-md-4 pt-3 mt-3">
                             <h5 style={centerFeatureTitle}>Add to Cart</h5>
@@ -95,8 +98,12 @@ const centerFeatureTitle = {
     textAlign: 'center'
 }
 
-const color1 = {
-    backgroundColor: '#ecf2f9'
+const mountainBackground = {
+    backgroundImage: 'url(' + mountain + ')',
+    backgroundRepeat: 'no-repeat',
+    backgroundAttachment: 'fixed',
+    backgroundSize: 'cover',
+    opacity: '0.6'
 }
 
 export default Remedial;
