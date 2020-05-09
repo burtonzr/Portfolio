@@ -113,12 +113,4 @@ const centerFeatureTitle = {
     textAlign: 'center'
 }
 
-const mountainBackground = {
-    backgroundImage: 'url(' + mountain + ')',
-    backgroundRepeat: 'no-repeat',
-    backgroundAttachment: 'fixed',
-    backgroundSize: 'cover',
-    opacity: '0.6'
-}
-
 export default Mosis;

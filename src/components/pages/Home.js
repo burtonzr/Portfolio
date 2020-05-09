@@ -23,6 +23,7 @@ class Home extends Component {
     }
 
     render() {
+        loadjs('main.js');
         return (
             <div>
                 <section className="sectionStyle" style={{marginBottom: '850px'}}>

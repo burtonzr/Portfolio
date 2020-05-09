@@ -229,6 +229,12 @@ body {
   box-sizing: border-box;
 }
 
+@media only screen and (max-width: 768px) {
+  .navbarStyle {
+    display: none;
+  }
+}
+
 #header {
   height: 70px;
   transition: all 0.5s;
@@ -291,6 +297,35 @@ body {
 .nav-menu .drop-down li {
   min-width: 180px;
   position: relative;
+}
+
+/* Mobile Navigation */
+.mobile-nav {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  z-index: 9999;
+  overflow-y: auto;
+  padding-top: 18px;
+  left: -260px;
+  width: 260px;
+  background: rgba(43, 56, 54, 0.7);
+  transition: 0.4s;
+}
+
+.mobile-nav * {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.mobile-nav a {
+  display: block;
+  position: relative;
+  color: #fff;
+  padding: 10px 20px;
+  font-weight: 500;
+  transition: ease-in-out 0.3s;
 }
 
 /* Homepage */

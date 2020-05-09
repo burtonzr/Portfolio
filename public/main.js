@@ -7,4 +7,38 @@ $(document).ready(function () {
 
 !(function($) {
     "use strict";
+
+    // Smooth scroll for the navigation menu and links with .scrollto class
+    $(document).on('click', '.nav-menu a, .mobile-nav a, .scrollto', function(e) {
+        e.preventDefault();
+    });
+
+    // Mobile Navigation
+    if($('.nav-menu').length) {
+        var $mobile_nav = $('.nav-menu').clone().prop({
+            class: 'mobile-nav d-lg-none'
+        });
+
+        // creating sandwich button
+        $('body').append($mobile_nav);
+        $('body').prepend('<button type="button" class="mobile-nav-toggle d-lg-none"><i class="icofont-navigation-menu"></i></button>');
+        $('body').append('<div class="mobile-nav-overly"></div>');
+
+        //making mobile nav active when clicked
+        $(document).on('click', '.mobile-nav-toggle', function (e) {
+            $('body').toggleClass('mobile-nav-active');
+            $('.mobile-nav-toggle i').toggleClass('icofont-navigation-menu icofont-close');
+            $('.mobile-nav-overly').toggle();
+        });
+    } else if ($(".mobile-nav, .mobile-nav-toggle").length) {
+        $(".mobile-nav, .mobile-nav-toggle").hide();
+    }
+
+    // Real view height for mobile devices
+    if(window.matchMedia("(max-width: 767px)").matches) {
+        $('#hero').css({
+            height: $(window).height()
+        });
+    }
+
 })(jQuery);
