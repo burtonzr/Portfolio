@@ -23,12 +23,6 @@ class Navbar extends React.Component {
                                         <li><Link to="/Reports">eDataReports</Link></li>
                                     </ul>
                                 </li>
-                                <li className="drop-down"><a href="/">UCM Projects</a>
-                                    <ul>
-                                        <li><Link to="/">R&amp;B Marketplace</Link></li>
-                                        <li><Link to="/">Issue Ticketing System</Link></li>
-                                    </ul>
-                                </li>
                                 */}
                             </ul>
                         </nav>
