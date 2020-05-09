@@ -3,4 +3,8 @@ $(document).ready(function () {
     $("#header").sticky({ topSpacing: 0, zIndex: '50' });
     //scroll to top on route
     window.scrollTo(0, 0);
-});;
+});
+
+!(function($) {
+    "use strict";
+})(jQuery);

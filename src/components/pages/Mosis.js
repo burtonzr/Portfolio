@@ -44,7 +44,7 @@ class Mosis extends Component {
                                This form is where admins add and manage MOSIS users. If a new staff member needs access to the website, 
                                this is where an admin will add them. If a staff member does not need access anymore, their status can be changed to inactive. 
                             </p>
-                            <img src={user} width="90%" className="img-fluid" />
+                            <img src={user} alt="Add User" width="90%" className="img-fluid" />
                         </div>
                         <div class="shadow-none rounded col-12 col-sm-6 col-md-4 pt-3 mt-3">
                             <h5 style={centerFeatureTitle}>Add Employee</h5>
@@ -52,7 +52,7 @@ class Mosis extends Component {
                                This form is where admins can add new employees that need to be reported to the Department of Secondary and Elementary Education (DESE).
                                The employee's position, position code, school, and other information are recorded. 
                             </p>
-                            <img src={employee} width="81%" className="img-fluid" />
+                            <img src={employee} alt="Add Employee" width="81%" className="img-fluid" />
                         </div>
                         <div class="shadow-none rounded col-12 col-sm-6 col-md-4 pt-3 mt-3">
                             <h5 style={centerFeatureTitle}>Search Filters</h5>
@@ -62,8 +62,8 @@ class Mosis extends Component {
                                 This is a smooth way to search for employees. The Search Employee field allows you to type the name of the employee and hitting enter will display 
                                 any record with that employee name. 
                             </p>
-                            <img src={filter1} className="img-fluid" />
-                            <img src={filter2} className="img-fluid" />
+                            <img src={filter1} alt="Search Filters 1" className="img-fluid" />
+                            <img src={filter2} alt="Search Filters 2" className="img-fluid" />
                         </div>
                     </div>
                 </div>
@@ -84,7 +84,7 @@ class Mosis extends Component {
                                The search fields allow you to search for different Course Assignments. A teacher may have more than one course that they have 
                                been assigned to. The search fields are extremely helpful because there are thousands of course assignments.  
                             </p>
-                            <img src={course} className="img-fluid" />
+                            <img src={course} alt="Course Assignment" className="img-fluid" />
                         </div>
                         <div class="shadow-none rounded col-12 col-sm-6 col-md-4 pt-3 mt-3">
                             <h5 style={centerFeatureTitle}>Student Assignments</h5>
@@ -92,7 +92,7 @@ class Mosis extends Component {
                                 When a traveling teacher is reported to DESE, their students also have to be recorded. 
                                 The Save Student form allows you to search and add mutiple students at once in the Select Students field. 
                             </p>
-                            <img src={student} width="83%" className="img-fluid" />
+                            <img src={student} alt="Student Assignments" width="83%" className="img-fluid" />
                         </div>
                         <div class="shadow-none rounded col-12 col-sm-6 col-md-4 pt-3 mt-3">
                             <h5 style={centerFeatureTitle}>Printing Course Data</h5>
@@ -100,7 +100,7 @@ class Mosis extends Component {
                                 I used the DataTable jQuery Library to make it easy for MOSIS users to create Excel Spreadsheets, PDF, 
                                 or print Course Assignment information. 
                             </p>
-                            <img src={print} className="img-fluid" />
+                            <img src={print} alt="Printing Course Data" className="img-fluid" />
                         </div>
                     </div>
                 </div>

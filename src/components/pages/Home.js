@@ -34,7 +34,7 @@ class Home extends Component {
                         <div className="col-12 col-sm-6 view overlay">
                             <img src={Benefits} className="img-fluid" alt="Lee's Summit R-7 Benefits"/>
                             <div className="mask rgba-orange-light">
-                                <a className="hoverText" rel="noopener noreferrer"  href='/'>
+                                <a className="hoverText" rel="noopener noreferrer" href='/'>
                                     Lee's Summit R-7 Benefits
                                 </a>
                             </div>
