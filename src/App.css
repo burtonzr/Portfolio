@@ -378,6 +378,7 @@ body {
 
 .mobile-nav > ul > li:nth-child(n) > a:hover {
   color: black;
+  font-weight: 800;
 }
 
 /* Homepage */
