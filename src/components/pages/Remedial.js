@@ -5,7 +5,6 @@ var loadjs = require('loadjs');
 const editproduct = "../images/editproduct.png";
 const viewall     = "../images/viewallorders.png";
 const addproduct  = "../images/addproduct.png";
-const mountain    = "../images/mountainbackground.jpg";
 
 class Remedial extends React.Component {
     componentDidMount() {
@@ -40,21 +39,21 @@ class Remedial extends React.Component {
                             <p className="pt-2">
                                 
                             </p>
-                            <img src={editproduct} width="90%" className="img-fluid" />
+                            <img src={editproduct} alt="" width="90%" className="img-fluid" />
                         </div>
                         <div class="shadow-none rounded col-12 col-sm-6 col-md-4 pt-3 mt-3">
                             <h5 style={centerFeatureTitle}>Add Product</h5>
                             <p className="pt-2">
                                 
                             </p>
-                            <img src={addproduct} className="img-fluid" />
+                            <img src={addproduct} alt="" className="img-fluid" />
                         </div>
                         <div class="shadow-none rounded col-12 col-sm-6 col-md-4 pt-3 mt-3">
                             <h5 style={centerFeatureTitle}>View All Orders</h5>
                             <p className="pt-2">
                                 
                             </p>
-                            <img src={viewall} className="img-fluid" />
+                            <img src={viewall} alt="" className="img-fluid" />
                         </div>
                     </div>
                 </div>
@@ -96,14 +95,6 @@ class Remedial extends React.Component {
 
 const centerFeatureTitle = {
     textAlign: 'center'
-}
-
-const mountainBackground = {
-    backgroundImage: 'url(' + mountain + ')',
-    backgroundRepeat: 'no-repeat',
-    backgroundAttachment: 'fixed',
-    backgroundSize: 'cover',
-    opacity: '0.6'
 }
 
 export default Remedial;

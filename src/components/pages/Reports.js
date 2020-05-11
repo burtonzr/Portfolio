@@ -37,21 +37,21 @@ class Reports extends React.Component {
                             <p className="pt-2">
                                 
                             </p>
-                            <img src={editproduct} width="90%" className="img-fluid" />
+                            <img src={editproduct} alt="" width="90%" className="img-fluid" />
                         </div>
                         <div class="shadow-none rounded col-12 col-sm-6 col-md-4 pt-3 mt-3">
                             <h5 style={centerFeatureTitle}>Add Product</h5>
                             <p className="pt-2">
                                
                             </p>
-                            <img src={addproduct} className="img-fluid" />
+                            <img src={addproduct} alt="" className="img-fluid" />
                         </div>
                         <div class="shadow-none rounded col-12 col-sm-6 col-md-4 pt-3 mt-3">
                             <h5 style={centerFeatureTitle}>View All Orders</h5>
                             <p className="pt-2">
                                 
                             </p>
-                            <img src={viewall} className="img-fluid" />
+                            <img src={viewall} alt="" className="img-fluid" />
                         </div>
                     </div>
                 </div>

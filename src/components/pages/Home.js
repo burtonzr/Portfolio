@@ -14,14 +14,9 @@ const IssueTicket   = "../images/issueticketingsystem.JPG";
 var loadjs = require('loadjs');
 
 class Home extends Component {
-    constructor(props) {
-        super(props);
-    }
-    
     componentDidMount() {
         loadjs('main.js');
     }
-
     render() {
         loadjs('main.js');
         return (

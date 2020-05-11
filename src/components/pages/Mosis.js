@@ -9,7 +9,6 @@ const filter2     = "../images/filters2.png";
 const course      = "../images/course.png";
 const student     = "../images/student.png";
 const print       = "../images/print.png";
-const mountain    = "../images/mountainbackground.jpg";
 
 class Mosis extends Component {
     componentDidMount() {
