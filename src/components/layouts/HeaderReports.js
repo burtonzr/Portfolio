@@ -1,27 +1,29 @@
 import React from 'react';
-import { Parallax } from 'react-parallax';
 
-const eDataReports = "../images/eDataReports.png";
-
-const layer = {
-    boxShadow: 'inset 0 0 0 1000px rgba(0, 0, 0, 0.7)'
-}
+const header = "../images/eDataReports.png";
 
 class HeaderReports extends React.Component {
     render() {
         return (
             <div>
-                <Parallax bgImage={eDataReports} strength={250}>
-                    <div style={layer}>
-                        <div id="scrollHeader">
-                            <h1 className="titleWhite">ColdFusion Application</h1>
-                            <h4 className="subtitleWhite">eDataReports</h4>
-                            <span className="subsubtitleWhite">December 2019 - Present</span>
+                <div className="row">
+                    <div className="col-sm-5 col-12 headerStyle">
+                        <div className="leftSection">
+                            <h1 className="leftGroup">ColdFusion Application</h1>
+                            <h4 className="leftTitle">eDataReports</h4>
+                            <span className="leftSpan">December 2019 - May 2020</span>
                         </div>
                     </div>
-                </Parallax>
+                    <div className="col-sm-7 col-12 headerStyle">
+                        <div className="screenshot-container-parent">
+                            <div className="screenshot-container">
+                                <img src={header} className="img-fluid" alt="eDataReports Header" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-        )
+        );
     }
 }
 

@@ -12,6 +12,7 @@ import HeaderRemedial  from './components/layouts/HeaderRemedial';
 import HeaderReports   from './components/layouts/HeaderReports';
 import Navbar          from './components/layouts/Navbar';
 import './App.css';
+import './ColdFusion.css';
 
 function App() {
   return (
@@ -47,8 +48,8 @@ function App() {
         )} />
         <Route exact path="/Reports" render={props => (
           <div>
-            <HeaderReports />
             <Navbar />
+            <HeaderReports />
             <Reports />
           </div>
         )} />

@@ -1,0 +1,81 @@
+.headerStyle {
+    background-color: #66b2e5;
+    height: 500px;
+}
+
+@media only screen and (max-width: 800px) {
+    .headerStyle {
+        height: 300px;
+    }
+}
+
+.screenshot-container-parent {
+    perspective: 800px;
+    perspective-origin: 50% 50%;
+    z-index: 5;
+}
+
+.screenshot-container {
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: slow-rotate;
+    animation: slow-rotate ease-in-out 1s;
+    overflow: hidden;
+    transform: rotateY(0) translateX(0);
+    transform-style: preserve-3d;
+    transition: all ease-in-out 280ms;
+    transform-origin: 50% 50%;
+    z-index: 50;
+}
+
+.screenshot-container:hover {
+    transform: rotateY(-10deg) translateX(20px);
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+}
+
+.leftSection {
+    text-align: center;
+    position: absolute;
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.leftGroup {
+    display: block;
+    white-space: nowrap;
+    font-size: 30px;
+}
+
+.leftTitle {
+    line-height: 2em;
+    padding-top: 20px;
+}
+
+.leftSpan {
+    padding-top: 40px;
+    line-height: 2em;
+}
+
+.mountainText h1 {
+    font-size: 50px;
+}
+  
+.mountainText p {
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+    .mountainText h1 {
+        font-size: 30px;
+    }
+    .mountainText p {
+        font-size: 18px;
+    }
+}
