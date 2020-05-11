@@ -27,15 +27,15 @@ function App() {
         )} />
         <Route exact path="/TechStore" render={props => (
           <div>
-            <HeaderTechStore />
             <Navbar />
+            <HeaderTechStore />
             <TechStore />
           </div>
         )} />
         <Route exact path="/Mosis" render={props => (
           <div>
-            <HeaderMosis />
             <Navbar />
+            <HeaderMosis />
             <Mosis />
           </div>
         )} />

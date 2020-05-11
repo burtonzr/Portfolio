@@ -1,25 +1,27 @@
 import React, { Component } from 'react';
-import { Parallax } from 'react-parallax';
 
 const MosisHeader = "../images/MOSISHome.png";
-
-const layer = {
-    boxShadow: 'inset 0 0 0 1000px rgba(0, 0, 0, 0.7'
-}
 
 class HeaderMosis extends Component {
     render() {
         return (
             <div>
-                <Parallax bgImage={MosisHeader} strength={250}>
-                    <div style={layer}>
-                        <div id="scrollHeader">
-                            <h1 className="title">ColdFusion Application</h1>
-                            <h4 className="subtitle">MOSIS</h4>
-                            <h6 className="subtitleSpan">July 2019 - September 2019</h6>
+                <div className="row">
+                    <div className="col-sm-5 col-12 headerStyle">
+                        <div className="leftSection">
+                            <h1 className="leftGroup">ColdFusion Application</h1>
+                            <h4 className="leftTitle">MOSIS</h4>
+                            <span className="leftSpan">July 2019 - September 2019</span>
                         </div>
                     </div>
-                </Parallax>
+                    <div className="col-sm-7 col-12 headerStyle">
+                        <div className="screenshot-container-parent">
+                            <div className="screenshot-container">
+                                <img src={MosisHeader} className="img-fluid" alt="eDataReports Header" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         );
     }
