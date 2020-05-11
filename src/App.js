@@ -41,8 +41,8 @@ function App() {
         )} />
         <Route exact path="/Remedial" render={props => (
           <div>
-            <HeaderRemedial />
             <Navbar />
+            <HeaderRemedial />
             <Remedial />
           </div>
         )} />
