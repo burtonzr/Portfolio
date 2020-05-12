@@ -36,8 +36,8 @@ class Mosis extends Component {
                     </div>
                 </div>
                 <div className="features">
-                    <div class="row">
-                        <div class="shadow-none rounded col-12 col-sm-6 col-md-4 pt-3 mt-3">
+                    <div className="row">
+                        <div className="shadow-none rounded col-12 col-sm-6 col-md-4 pt-3 mt-3">
                             <h5 style={centerFeatureTitle}>Add User</h5>
                             <p className="pt-2">
                                This form is where admins add and manage MOSIS users. If a new staff member needs access to the website, 
@@ -45,7 +45,7 @@ class Mosis extends Component {
                             </p>
                             <img src={user} alt="Add User" width="90%" className="img-fluid" />
                         </div>
-                        <div class="shadow-none rounded col-12 col-sm-6 col-md-4 pt-3 mt-3">
+                        <div className="shadow-none rounded col-12 col-sm-6 col-md-4 pt-3 mt-3">
                             <h5 style={centerFeatureTitle}>Add Employee</h5>
                             <p className="pt-2">
                                This form is where admins can add new employees that need to be reported to the Department of Secondary and Elementary Education (DESE).
@@ -53,7 +53,7 @@ class Mosis extends Component {
                             </p>
                             <img src={employee} alt="Add Employee" width="81%" className="img-fluid" />
                         </div>
-                        <div class="shadow-none rounded col-12 col-sm-6 col-md-4 pt-3 mt-3">
+                        <div className="shadow-none rounded col-12 col-sm-6 col-md-4 pt-3 mt-3">
                             <h5 style={centerFeatureTitle}>Search Filters</h5>
                             <p className="pt-2">
                                 These search filters make it easy to find employees since there are over 2200 employees stored in the employee table.

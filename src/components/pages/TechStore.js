@@ -48,7 +48,7 @@ class TechStore extends Component {
                             </p>
                             <img src={editproduct} alt="Edit Product Modal" width="90%" className="img-fluid" />
                         </div>
-                        <div class="shadow-none rounded col-12 col-sm-6 col-md-4 pt-3 mt-3">
+                        <div className="shadow-none rounded col-12 col-sm-6 col-md-4 pt-3 mt-3">
                             <h5 style={centerFeatureTitle}>Add Product</h5>
                             <p className="pt-2">
                                 Whenever a popular product is bought by staff, the Technology Purchaser will
@@ -56,7 +56,7 @@ class TechStore extends Component {
                             </p>
                             <img src={addproduct} alt="Add Product" className="img-fluid" />
                         </div>
-                        <div class="shadow-none rounded col-12 col-sm-6 col-md-4 pt-3 mt-3">
+                        <div className="shadow-none rounded col-12 col-sm-6 col-md-4 pt-3 mt-3">
                             <h5 style={centerFeatureTitle}>View All Orders</h5>
                             <p className="pt-2">
                                 The Technology Purchaser uses this table to see the status of orders, the total price of a 
@@ -77,8 +77,8 @@ class TechStore extends Component {
                     </div>
                 </div>
                 <div className="features">
-                    <div class="row">
-                        <div class="shadow-none rounded col-12 col-sm-6 col-md-4 pt-3 mt-3">
+                    <div className="row">
+                        <div className="shadow-none rounded col-12 col-sm-6 col-md-4 pt-3 mt-3">
                             <h5 style={centerFeatureTitle}>Add to Cart</h5>
                             <p className="pt-2">
                                 A user can simple add a product to their cart and then they can view
@@ -88,7 +88,7 @@ class TechStore extends Component {
                             <img src={cart} width="80%" alt="Add to Cart Button" className="img-fluid" />
                             <img src={cart2} width="80%" alt="Add to Cart Modal" className="img-fluid pt-3" />
                         </div>
-                        <div class="shadow-none rounded col-12 col-sm-6 col-md-4 pt-3 mt-3">
+                        <div className="shadow-none rounded col-12 col-sm-6 col-md-4 pt-3 mt-3">
                             <h5 style={centerFeatureTitle}>Create Multiple Carts</h5>
                             <p className="pt-2">
                                 You have the ability to create mutiple carts. The only time you 
@@ -99,7 +99,7 @@ class TechStore extends Component {
                             <img src={multicart} alt="Create Multiple Cart Button" width="90%" className="img-fluid" />
                             <img src={multicart2} alt="Create Mutiple Cart Results" width="90%" className="img-fluid pt-3" />
                         </div>
-                        <div class="shadow-none rounded col-12 col-sm-6 col-md-4 pt-3 mt-3">
+                        <div className="shadow-none rounded col-12 col-sm-6 col-md-4 pt-3 mt-3">
                             <h5 style={centerFeatureTitle}>Add Custom Product to Cart</h5>
                             <p className="pt-2">
                                 If you need to purchase a product that does not exist in the store, you can create custom product. 
