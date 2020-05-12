@@ -3,9 +3,9 @@
     height: 500px;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 768px) {
     .headerStyle {
-        height: 300px;
+        height: 430px;
     }
 }
 
@@ -24,13 +24,24 @@
     animation-fill-mode: none;
     animation-play-state: running;
     animation-name: slow-rotate;
-    animation: slow-rotate ease-in-out 1s;
     overflow: hidden;
     transform: rotateY(0) translateX(0);
     transform-style: preserve-3d;
     transition: all ease-in-out 280ms;
     transform-origin: 50% 50%;
     z-index: 50;
+}
+
+@media only screen and (min-width: 900px) {
+    .screenshot-container {
+        margin-top: 45px;
+    }
+}
+
+@media only screen and (min-width: 770px) {
+    .screenshot-container {
+        margin-top: 85px;
+    }
 }
 
 .screenshot-container:hover {

@@ -7,7 +7,7 @@ $(document).ready(function () {
 
 !(function($) {
     "use strict";
-
+    
     // Mobile Navigation
     if($('.nav-menu').length) {
         var $mobile_nav = $('.nav-menu').clone().prop({
@@ -28,12 +28,4 @@ $(document).ready(function () {
     } else if ($(".mobile-nav, .mobile-nav-toggle").length) {
         $(".mobile-nav, .mobile-nav-toggle").hide();
     }
-
-    // Real view height for mobile devices
-    if(window.matchMedia("(max-width: 767px)").matches) {
-        $('#hero').css({
-            height: $(window).height()
-        });
-    }
-
 })(jQuery);

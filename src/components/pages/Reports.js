@@ -31,22 +31,22 @@ class Reports extends React.Component {
                     </div>
                 </div>
                 <div className="features">
-                    <div class="row">
-                        <div class="shadow-none rounded col-12 col-sm-6 col-md-4 pt-3 mt-3">
+                    <div className="row">
+                        <div className="shadow-none rounded col-12 col-sm-6 col-md-4 pt-3 mt-3">
                             <h5 style={centerFeatureTitle}>Edit Product</h5>
                             <p className="pt-2">
                                 
                             </p>
                             <img src={editproduct} alt="" width="90%" className="img-fluid" />
                         </div>
-                        <div class="shadow-none rounded col-12 col-sm-6 col-md-4 pt-3 mt-3">
+                        <div className="shadow-none rounded col-12 col-sm-6 col-md-4 pt-3 mt-3">
                             <h5 style={centerFeatureTitle}>Add Product</h5>
                             <p className="pt-2">
                                
                             </p>
                             <img src={addproduct} alt="" className="img-fluid" />
                         </div>
-                        <div class="shadow-none rounded col-12 col-sm-6 col-md-4 pt-3 mt-3">
+                        <div className="shadow-none rounded col-12 col-sm-6 col-md-4 pt-3 mt-3">
                             <h5 style={centerFeatureTitle}>View All Orders</h5>
                             <p className="pt-2">
                                 
@@ -65,20 +65,20 @@ class Reports extends React.Component {
                     </div>
                 </div>
                 <div className="features">
-                    <div class="row">
-                        <div class="shadow-none rounded col-12 col-sm-6 col-md-4 pt-3 mt-3">
+                    <div className="row">
+                        <div className="shadow-none rounded col-12 col-sm-6 col-md-4 pt-3 mt-3">
                             <h5 style={centerFeatureTitle}>Add to Cart</h5>
                             <p className="pt-2">
                                 
                             </p>
                         </div>
-                        <div class="shadow-none rounded col-12 col-sm-6 col-md-4 pt-3 mt-3">
+                        <div className="shadow-none rounded col-12 col-sm-6 col-md-4 pt-3 mt-3">
                             <h5 style={centerFeatureTitle}>Create Multiple Carts</h5>
                             <p className="pt-2">
                                 
                             </p>
                         </div>
-                        <div class="shadow-none rounded col-12 col-sm-6 col-md-4 pt-3 mt-3">
+                        <div className="shadow-none rounded col-12 col-sm-6 col-md-4 pt-3 mt-3">
                             <h5 style={centerFeatureTitle}>Add Custom Product to Cart</h5>
                             <p className="pt-2">
                                
