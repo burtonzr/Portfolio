@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Route} from 'react-router-dom';
-import Home            from  './components/pages/Home';
+import Home            from './components/pages/Home';
+import HomeDraft       from './components/pages/HomeDraft';
 import TechStore       from './components/pages/TechStore';
 import Mosis           from './components/pages/Mosis';
 import Remedial        from './components/pages/Remedial';
@@ -26,6 +27,13 @@ function App() {
             <Home />
           </div>
         )} />
+        <Route exact path="/HomeDraft" render={props => (
+          <div>
+            <Header />
+            <Navbar />
+            <HomeDraft />
+          </div>
+        )} />
         <Route exact path="/TechStore" render={props => (
           <div>
             <Navbar />
@@ -39,7 +47,6 @@ function App() {
             <Navbar />
             <HeaderMosis />
             <Mosis />
-            <Footer />
           </div>
         )} />
         <Route exact path="/Remedial" render={props => (

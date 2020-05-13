@@ -10,7 +10,7 @@ const course      = "../images/course.png";
 const student     = "../images/student.png";
 const print       = "../images/print.png";
 
-class Mosis extends Component {
+class HomeDraft extends Component {
     componentDidMount() {
         loadjs('main.js');
     }
@@ -132,4 +132,4 @@ const centerFeatureTitle = {
     textAlign: 'center'
 }
 
-export default Mosis;
+export default HomeDraft;
