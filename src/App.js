@@ -12,7 +12,6 @@ import HeaderMosis     from './components/layouts/HeaderMosis';
 import HeaderRemedial  from './components/layouts/HeaderRemedial';
 import HeaderReports   from './components/layouts/HeaderReports';
 import Navbar          from './components/layouts/Navbar';
-import Footer          from './components/layouts/Footer';
 import './App.css';
 import './ColdFusion.css';
 
@@ -39,7 +38,6 @@ function App() {
             <Navbar />
             <HeaderTechStore />
             <TechStore />
-            <Footer />
           </div>
         )} />
         <Route exact path="/Mosis" render={props => (
@@ -54,7 +52,6 @@ function App() {
             <Navbar />
             <HeaderRemedial />
             <Remedial />
-            <Footer />
           </div>
         )} />
         <Route exact path="/Reports" render={props => (
@@ -62,7 +59,6 @@ function App() {
             <Navbar />
             <HeaderReports />
             <Reports />
-            <Footer />
           </div>
         )} />
       </Router>
