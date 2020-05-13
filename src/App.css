@@ -44,6 +44,10 @@ body {
   transform: skew(8deg) rotate(3deg);
 }
 
+.summary {
+  padding: 15px;
+}
+
 .features {
   position: relative;
   margin-left: auto;

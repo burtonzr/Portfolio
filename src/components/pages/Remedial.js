@@ -5,6 +5,7 @@ var loadjs = require('loadjs');
 const admin = "../images/admin.png";
 const user1 = "../images/user1.png";
 const user  = "../images/user.png";
+const subj  = "../images/subject.png";
 
 class Remedial extends React.Component {
     componentDidMount() {
@@ -27,15 +28,19 @@ class Remedial extends React.Component {
                     <div className="mountainText">
                         <h1>Administrator Features</h1>
                         <p>
-                            The staff members that get administrative access are the Technology Purchaser, 
-                            Data Systems staff, and building administrators. 
+                            The staff members that get administrative access are Web Developers, Application Specalists, and the District MOSIS Specialist. 
                         </p>
                     </div>
                 </div>
                 <div className="features" style={backgroundGrey}>
+                    <p className="summary">
+                        The District MOSIS Specialist needs to be able to create Excel Spreadsheets of tutoring minutes to create reports. 
+                        I used DataTables (Table Plug-In for jQuery) so that the District MOSIS Specialist can search for specific data and create Excel Spreadsheets for reports. 
+                        The table where the records are displayed is not shown because it shows student information. 
+                    </p>
                     <div className="container">
                         <div className="rounded hoverEffect">
-                            <img src={admin} className="img-fluid" />
+                            <img alt="Admin Screen" src={admin} className="img-fluid" />
                         </div>
                     </div>
                 </div>
@@ -43,16 +48,23 @@ class Remedial extends React.Component {
                     <div className="mountainText">
                         <h1>User Features</h1>
                         <p>
-                            Regular users include most staff members that might need technology parts or equipment, 
-                            like a new laptop or power adapter. 
+                            Regular users are teachers or educators that report tutoring minutes.  
                         </p>
                     </div>
                 </div>
                 <div className="features" style={backgroundGrey}>
+                    <p className="summary">
+                        When an educator needs to report tutoring minutes for a student, they will add a student to the application. 
+                        An educator can type and search for the student's name and then select all of the days they were tutored. More than one tutoring entry can be entered at once.
+                        The date field allows you to select mutiple dates (mutiple select). The table where the records are displayed is not shown because it shows student information. 
+                        When you add a student, it automatically grabs their student number and grade level. You can select the subject, rationale, and time frame of the tutoring session. 
+                        The Time In and Time Out fields will calcuate the total minutes the student was tutored. 
+                    </p>
                     <div className="container">
                         <div className="rounded hoverEffect">
-                            <img src={user} className="img-fluid" />
-                            <img src={user1} className="img-fluid" />
+                            <img src={user} alt="Form" className="img-fluid" />
+                            <img src={user1} alt="Search" className="img-fluid" />
+                            <img src={subj} alt="Table" className="img-fluid" />
                         </div>
                     </div>
                 </div>
