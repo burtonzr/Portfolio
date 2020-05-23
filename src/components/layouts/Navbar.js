@@ -1,12 +1,17 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 
+const logo = "../images/logo.JPG";
+
 class Navbar extends React.Component {
     render() {
         return (
             <div className="navbarStyle">
                 <div id="header">
                     <div className="container d-flex">
+                        <div className="logo mr-auto">
+                            <img src={logo} alt="Logo" className="img-fluid"/>
+                        </div>
                         <nav className="nav-menu d-none d-lg-block">
                             <ul>
                                 <li><NavLink exact={true} activeStyle={activeLink} activeClassName="is-active" to="/">Home</NavLink></li>

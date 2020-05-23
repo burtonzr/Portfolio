@@ -258,6 +258,14 @@ body {
   position: relative;
 }
 
+
+
+#header .logo img {
+  padding: 0;
+  margin: 0;
+  max-height: 60px;
+}
+
 /* Mobile Navigation */
 .mobile-nav {
   position: fixed;
