@@ -9,7 +9,7 @@ class Navbar extends React.Component {
             <div className="navbarStyle">
                 <div id="header">
                     <div className="container d-flex">
-                        <div className="logo mr-auto">
+                        <div className="logo">
                             <img src={logo} alt="Logo" className="img-fluid"/>
                         </div>
                         <nav className="nav-menu d-none d-lg-block">

@@ -10,6 +10,8 @@ const RHR           = "../images/RHR.png";
 const eDataReports  = "../images/eDataReports.png";
 const MarketPlace   = "../images/marketplace.JPG";
 const IssueTicket   = "../images/issueticketingsystem.JPG";
+const catch22       = "../images/catch22.JPG";
+const catch22Canada = "../images/catch22canada.JPG";
 
 var loadjs = require('loadjs');
 
@@ -58,6 +60,24 @@ class Home extends Component {
                             <div className="mask rgba-blue-light">
                                 <a className="hoverText" rel="noopener noreferrer" target="_blank" href='https://lsr7.org/'>
                                     Lee's Summit R-7 District
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="row">
+                        <div className="col-12 col-sm-6 view overlay leftSide">
+                            <img src={catch22} className="img-fluid" alt="R&amp;B Marketplace"/>
+                            <div className="mask rgba-blue-light">
+                                <a className="hoverText" rel="noopener noreferrer" target="_blank" href='https://www.catch22delivery.com/about-us/'>
+                                    Catch22Delivery (United States)
+                                </a>
+                            </div>
+                        </div>
+                        <div className="col-12 col-sm-6 view overlay rightSide">
+                            <img src={catch22Canada} className="img-fluid" alt="Issue Ticketing System"/>
+                            <div className="mask rgba-brown-light">
+                                <a className="hoverText" rel="noopener noreferrer" target="_blank" href='https://catch22delivery.ca/'>
+                                    Catch22Delivery (Canada)
                                 </a>
                             </div>
                         </div>
