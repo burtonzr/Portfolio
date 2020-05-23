@@ -2,9 +2,8 @@ import React from 'react';
 
 var loadjs = require('loadjs');
 
-const editproduct = "../images/editproduct.png";
-const viewall     = "../images/viewallorders.png";
-const addproduct  = "../images/addproduct.png";
+const reportuser  = "../images/reportuser.png";
+const reportadmin = "../images/reportadmin.png";
 
 class Reports extends React.Component {
     componentDidMount() {
@@ -16,43 +15,29 @@ class Reports extends React.Component {
             <div>
                 <section className="content">
                     <div className="gridTitle">
-                        eDataReports<br />
+                        Remedial Hours Reporting<br />
                         <hr className="sep" />
                         <p>
-                            This web application allows specified staff to run batch files and crystal reports.
+                            This application allows technology staff to run batch files and crystal reports.  
                         </p>
                     </div>
                     <div className="mountainBackground">
                         <div className="mountainText">
                             <h1>Administrator Features</h1>
                             <p>
-                                The staff members that get administrative access are the Technology Purchaser, 
-                                Data Systems staff, and building administrators. 
+                                Administrators include web developers, data support, and the data systems director. These staff members have to be manually added as administrators.
+                                They can add reports, add users, and view report logs. If a teacher or non-technology staff member needs to run reports, then they need to contact
+                                an administrator so that an administrator can maually add them to the user table. 
                             </p>
                         </div>
                     </div>
-                    <div className="features">
-                        <div className="row">
-                            <div className="shadow-none rounded col-12 col-sm-6 col-md-4 pt-3 mt-3">
-                                <h5 style={centerFeatureTitle}>Edit Product</h5>
-                                <p className="pt-2">
-                                    
-                                </p>
-                                <img src={editproduct} alt="" width="90%" className="img-fluid" />
-                            </div>
-                            <div className="shadow-none rounded col-12 col-sm-6 col-md-4 pt-3 mt-3">
-                                <h5 style={centerFeatureTitle}>Add Product</h5>
-                                <p className="pt-2">
-                                
-                                </p>
-                                <img src={addproduct} alt="" className="img-fluid" />
-                            </div>
-                            <div className="shadow-none rounded col-12 col-sm-6 col-md-4 pt-3 mt-3">
-                                <h5 style={centerFeatureTitle}>View All Orders</h5>
-                                <p className="pt-2">
-                                    
-                                </p>
-                                <img src={viewall} alt="" className="img-fluid" />
+                    <div className="features" style={backgroundGrey}>
+                        <p className="summary">
+                            When adding reports, you have to specify what the url parameters are for the report. 
+                        </p>
+                        <div className="container">
+                            <div className="rounded hoverEffect">
+                                <img src={reportadmin} alt="Admin View to Add Reports" className="img-fluid" />
                             </div>
                         </div>
                     </div>
@@ -60,30 +45,20 @@ class Reports extends React.Component {
                         <div className="mountainText">
                             <h1>User Features</h1>
                             <p>
-                                Regular users include most staff members that might need technology parts or equipment, 
-                                like a new laptop or power adapter. 
+                                Regular users, which include teachers or HR staff, are only using the application to run and view report information. 
+                                If they are a teacher at Lee's Summit High School, then they can only view secondary reports and reports associated with Lee's Summit High School.
+                                Only administrators can view all report categories and reports associated with all schools.  
                             </p>
                         </div>
                     </div>
-                    <div className="features">
-                        <div className="row">
-                            <div className="shadow-none rounded col-12 col-sm-6 col-md-4 pt-3 mt-3">
-                                <h5 style={centerFeatureTitle}>Add to Cart</h5>
-                                <p className="pt-2">
-                                    
-                                </p>
-                            </div>
-                            <div className="shadow-none rounded col-12 col-sm-6 col-md-4 pt-3 mt-3">
-                                <h5 style={centerFeatureTitle}>Create Multiple Carts</h5>
-                                <p className="pt-2">
-                                    
-                                </p>
-                            </div>
-                            <div className="shadow-none rounded col-12 col-sm-6 col-md-4 pt-3 mt-3">
-                                <h5 style={centerFeatureTitle}>Add Custom Product to Cart</h5>
-                                <p className="pt-2">
-                                
-                                </p>
+                    <div className="features" style={backgroundGrey}>
+                        <p className="summary">
+                            When a user logs into the application, the reports are filtered by what their primary school is and the school quarter. Then, they can 
+                            choose which report that they what to run based on what they have access to. 
+                        </p>
+                        <div className="container">
+                            <div className="rounded hoverEffect">
+                                <img src={reportuser} alt="Regular User View to Run Reports" className="img-fluid" />
                             </div>
                         </div>
                     </div>
@@ -111,8 +86,8 @@ class Reports extends React.Component {
     }
 }
 
-const centerFeatureTitle = {
-    textAlign: 'center'
+const backgroundGrey = {
+    backgroundColor: 'rgba(217, 217, 217, 0.5)'
 }
 
 export default Reports;
