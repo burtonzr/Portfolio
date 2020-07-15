@@ -424,7 +424,7 @@ hr.sep {
 
 .sectionStyle {
   position: relative;
-  z-index: 10;
+  z-index: 200;
   background: white;
   margin-bottom: 400px;
 }
