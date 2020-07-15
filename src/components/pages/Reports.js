@@ -15,7 +15,7 @@ class Reports extends React.Component {
             <div>
                 <section className="content">
                     <div className="gridTitle">
-                        Remedial Hours Reporting<br />
+                        eDataReports<br />
                         <hr className="sep" />
                         <p>
                             This application allows technology staff to run batch files and crystal reports.  

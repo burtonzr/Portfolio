@@ -21,7 +21,7 @@ class Remedial extends React.Component {
                         <hr className="sep" />
                         <p>
                             This application allows kindergarten through 6th grade teachers to record tutoring minutes for students. 
-                            The total minutes will get reported to DESE (Missouri Department of Elementary and Secondary Education).  The original application was written in .NET. I redeveloped the application using ColdFusion, JavaScript, and SQL Server using the Model-View-Controller architectural pattern. 
+                            The total minutes will get reported to DESE (Missouri Department of Elementary and Secondary Education).  The original application was written in .NET. I developed the application using ColdFusion, JavaScript, and SQL Server using the Model-View-Controller architectural pattern. 
                             Google authentication was implemented to improve security. 
                         </p>
                     </div>
@@ -29,13 +29,13 @@ class Remedial extends React.Component {
                         <div className="mountainText">
                             <h1>Administrator Features</h1>
                             <p>
-                                The staff members that get administrative access are Web Developers, Application Specalists, and the District MOSIS Specialist. 
+                                Administrators include Application Specialists and Web Developers that maintain the website.
                             </p>
                         </div>
                     </div>
                     <div className="features" style={backgroundGrey}>
                         <p className="summary">
-                            The District MOSIS Specialist needs to be able to create Excel Spreadsheets of tutoring minutes to create reports. 
+                            The Administrators needs to be able to create Excel Spreadsheets of tutoring minutes to create reports. 
                             I used DataTables (Table Plug-In for jQuery) so that the District MOSIS Specialist can search for specific data and create Excel Spreadsheets for reports. 
                             The table where the records are displayed is not shown because it shows student information. 
                         </p>

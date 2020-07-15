@@ -32,7 +32,7 @@ class Mosis extends Component {
                         <div className="mountainText">
                             <h1>Administrator Features</h1>
                             <p>
-                                Administrators include Application Specialists and Web Developers that maintain the website.  
+                                The staff members that get administrative access are Web Developers, Application Specalists, and the District MOSIS Specialist. 
                             </p>
                         </div>
                     </div>

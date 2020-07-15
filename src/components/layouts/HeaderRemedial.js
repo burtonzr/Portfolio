@@ -1,6 +1,6 @@
 import React from 'react';
 
-const RHR = "../images/RHR.png";
+const RHR = "../images/rhr.png";
 
 class HeaderRemedial extends React.Component {
     render() {

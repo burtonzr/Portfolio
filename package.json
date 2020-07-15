@@ -1,5 +1,6 @@
 {
   "name": "porfolio-website",
+  "homepage": "http://zacharyreisburton.com/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

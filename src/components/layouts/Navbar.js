@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 
-const logo = "../images/logo.JPG";
+const logo = "../images/logo.jpg";
 
 class Navbar extends React.Component {
     render() {
