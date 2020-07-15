@@ -101,7 +101,7 @@ class Home extends Component {
                         <div className="col-12 col-sm-6 view overlay leftSide">
                             <img src={TechStore} className="img-fluid" alt="Technology Store"/>
                             <div className="mask rgba-yellow-light">
-                                <a className="hoverText" rel="noopener noreferrer" href="/TechStore">
+                                <a className="hoverText" rel="noopener noreferrer" href="http://zacharyreisburton.com/TechStore">
                                     Technology Store
                                 </a>
                             </div>
@@ -109,7 +109,7 @@ class Home extends Component {
                         <div className="col-12 col-sm-6 view overlay rightSide">
                             <img src={MOSIS} className="img-fluid" alt="MOSIS"/>
                             <div className="mask rgba-blue-light">
-                                <a className="hoverText" rel="noopener noreferrer" href='/Mosis'>
+                                <a className="hoverText" rel="noopener noreferrer" href='http://zacharyreisburton.com/Mosis'>
                                     MOSIS
                                 </a>
                             </div>
@@ -119,7 +119,7 @@ class Home extends Component {
                         <div className="col-12 col-sm-6 view overlay leftSide">
                             <img src={RHR} className="img-fluid" alt="Remedial Hours Reporting"/>
                             <div className="mask rgba-green-light">
-                                <a className="hoverText" rel="noopener noreferrer" href='/Remedial'>
+                                <a className="hoverText" rel="noopener noreferrer" href='http://zacharyreisburton.com/Remedial'>
                                     Remedial Hours Reporting
                                 </a>
                             </div>
@@ -127,7 +127,7 @@ class Home extends Component {
                         <div className="col-12 col-sm-6 view overlay rightSide">
                             <img src={eDataReports} className="img-fluid" alt="eDataReports"/>
                             <div className="mask rgba-red-light">
-                                <a className="hoverText" rel="noopener noreferrer" href='/Reports'>
+                                <a className="hoverText" rel="noopener noreferrer" href='http://zacharyreisburton.com/Reports'>
                                     eDataReports
                                 </a>
                             </div>
