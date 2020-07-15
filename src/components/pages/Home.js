@@ -12,6 +12,7 @@ const MarketPlace   = "../images/marketplace.JPG";
 const IssueTicket   = "../images/issueticketingsystem.JPG";
 const catch22       = "../images/catch22.JPG";
 const catch22Canada = "../images/catch22canada.JPG";
+const ECommerce     = "../images/e-commerce.JPG";
 
 var loadjs = require('loadjs');
 
@@ -144,6 +145,20 @@ class Home extends Component {
                             <div className="mask rgba-brown-light">
                                 <a className="hoverText" rel="noopener noreferrer" target="_blank" href='http://issueticketingsystem.com/'>
                                     Issue Ticketing System
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="gridTitle">
+                        Django Projects
+                        <hr className="sep" />
+                    </div>
+                    <div className="row">
+                        <div className="col-12 col-sm-6 view overlay leftSide">
+                            <img src={ECommerce} className="img-fluid" alt="R&amp;B Marketplace"/>
+                            <div className="mask rgba-yellow-light">
+                                <a className="hoverText" rel="noopener noreferrer" target="_blank" href='https://piroshkydelivery.com/'>
+                                    E-Commerce Template Website
                                 </a>
                             </div>
                         </div>
