@@ -6,6 +6,11 @@ const reportuser  = "../images/reportuser.png";
 const reportadmin = "../images/reportadmin.png";
 
 class Reports extends React.Component {
+
+    constructor(props) {
+        super(props);
+    }
+
     componentDidMount() {
         loadjs('main.js');
     }

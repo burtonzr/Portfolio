@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { NavLink } from 'react-router-dom';
 
 const Benefits      = "../images/benefitsHomepage.png";
 const BCMSImage     = "../images/bcmsHomepage.JPG";
@@ -17,9 +18,14 @@ const ECommerce     = "../images/e-commerce.JPG";
 var loadjs = require('loadjs');
 
 class Home extends Component {
+    constructor(props) {
+        super(props);
+    }
+
     componentDidMount() {
         loadjs('main.js');
     }
+
     render() {
         loadjs('main.js');
         return (
@@ -70,7 +76,7 @@ class Home extends Component {
                             <img src={catch22} className="img-fluid" alt="R&amp;B Marketplace"/>
                             <div className="mask rgba-blue-light">
                                 <a className="hoverText" rel="noopener noreferrer" target="_blank" href='https://www.catch22delivery.com/about-us/'>
-                                    Catch22Delivery (United States)
+                                    Catch22Market (United States)
                                 </a>
                             </div>
                         </div>
@@ -78,7 +84,7 @@ class Home extends Component {
                             <img src={catch22Canada} className="img-fluid" alt="Issue Ticketing System"/>
                             <div className="mask rgba-brown-light">
                                 <a className="hoverText" rel="noopener noreferrer" target="_blank" href='https://catch22delivery.ca/'>
-                                    Catch22Delivery (Canada)
+                                    Catch22Market (Canada)
                                 </a>
                             </div>
                         </div>
@@ -95,7 +101,7 @@ class Home extends Component {
                         <div className="col-12 col-sm-6 view overlay leftSide">
                             <img src={TechStore} className="img-fluid" alt="Technology Store"/>
                             <div className="mask rgba-yellow-light">
-                                <a className="hoverText" rel="noopener noreferrer" href='/Techstore'>
+                                <a className="hoverText" rel="noopener noreferrer" href="/TechStore">
                                     Technology Store
                                 </a>
                             </div>

@@ -8,6 +8,11 @@ const user  = "../images/user.png";
 const subj  = "../images/subject.png";
 
 class Remedial extends React.Component {
+
+    constructor(props) {
+        super(props);
+    }
+
     componentDidMount() {
         loadjs('main.js');
     }

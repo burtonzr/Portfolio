@@ -13,6 +13,11 @@ const custom1     = "../images/customproduct.png";
 const custom2     = "../images/customproduct2.png";
 
 class TechStore extends Component {
+
+    constructor(props) {
+        super(props);
+    }
+
     componentDidMount() {
         loadjs('main.js');
     }

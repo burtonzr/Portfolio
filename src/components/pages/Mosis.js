@@ -11,6 +11,11 @@ const student     = "../images/student.png";
 const print       = "../images/print.png";
 
 class Mosis extends Component {
+
+    constructor(props) {
+        super(props);
+    }
+
     componentDidMount() {
         loadjs('main.js');
     }
