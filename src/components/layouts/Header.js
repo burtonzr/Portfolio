@@ -13,6 +13,15 @@ class Header extends React.Component {
     render() {
         return (
             <div>
+                <section className="sectionParallaxStyle">
+                        <Parallax bgImage={mobileImage} style={styling} strength={330}>
+                            <div id="scrollHeader">
+                                <h1 className="title">Zach Burton</h1>
+                                <h4 className="subtitle">Web Developer</h4>
+                            </div>
+                        </Parallax>
+                    </section>
+                {/*
                 <Media query="(min-width: 1001px)" render={() => (
                     <section className="sectionParallaxStyle">
                         <Parallax bgImage={headerImage} style={styling} strength={330}>
@@ -23,6 +32,7 @@ class Header extends React.Component {
                         </Parallax>
                     </section>
                 )} />
+                
                 <Media query="(max-width: 1000px)" render={() => (
                     <section className="sectionParallaxStyle">
                         <Parallax bgImage={mobileImage} style={styling} strength={330}>
@@ -33,6 +43,7 @@ class Header extends React.Component {
                         </Parallax>
                     </section>
                 )}/>
+                */}
             </div>
         );
     }

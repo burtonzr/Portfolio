@@ -30,7 +30,7 @@ class Home extends Component {
         loadjs('main.js');
         return (
             <div>
-                <section className="sectionStyle" style={{marginBottom: '850px'}}>
+                <section className="sectionStyle" style={{marginBottom: '40px'}}/*style={{marginBottom: '850px'}}*/>
                     <div className="gridTitle">
                         Wordpress
                         <hr className="sep" />

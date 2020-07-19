@@ -110,7 +110,7 @@ class Mosis extends Component {
                         </div>
                     </div>
                 </section>
-                <footer>
+                <footer class="parallaxFooter">
                     <div className="row text-center">
                         <div className="col-12 col-sm-6 mt-2">
                             <h2>
