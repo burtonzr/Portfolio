@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { NavLink } from 'react-router-dom';
 
 const Benefits      = "../images/benefitsHomepage.png";
 const BCMSImage     = "../images/bcmsHomepage.JPG";
@@ -27,7 +26,6 @@ class Home extends Component {
     }
 
     render() {
-        loadjs('main.js');
         return (
             <div>
                 <section className="sectionStyle" style={{marginBottom: '40px'}}/*style={{marginBottom: '850px'}}*/>
